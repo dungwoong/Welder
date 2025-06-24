@@ -7,6 +7,10 @@ import numpy as np
 import torch
 from model.pytorch import *
 
+"""
+Models get declared in model/pytorch/__init__.py
+"""
+
 def torch2onnx(prefix, model, inputs):
     os.makedirs(args.prefix, exist_ok=True)
     outputs = model(*inputs)

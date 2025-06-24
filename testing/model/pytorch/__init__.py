@@ -143,3 +143,11 @@ def Conformer(batch_size):
     lengths = torch.LongTensor([num_frame for _ in range(batch_size)])
     input = torch.randn(batch_size, num_frame, input_dim)
     return model, (input, lengths)
+
+def gemm(batch_size):
+    from .gemm import GEMM
+    input_dim = 1024
+    model = GEMM(input_dim, input_dim)
+    input = torch.randn(batch_size, input_dim)
+    return model, (input, )
+
