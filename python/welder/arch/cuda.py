@@ -1,7 +1,7 @@
 import tvm
 
 class cuda:
-    def __init__(self):
+    def __init__(self, compute_capability="86"):
         device = tvm.runtime.cuda(0)
         if not device.exist:
             raise RuntimeError("Cannot find cuda device 0.")
@@ -9,7 +9,7 @@ class cuda:
         self.smem_cap = device.max_shared_memory_per_block
         self.compute_max_core = device.multi_processor_count
         self.warp_size = device.warp_size
-        self.compute_capability = device.compute_version.replace(".", "")
+        self.compute_capability = device.compute_version.replace(".", "") if not compute_capability else compute_capability
         self.reg_cap = 65536
         self.max_smem_usage = 2 * self.smem_cap
         self.sm_partition = 4
