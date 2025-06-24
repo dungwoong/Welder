@@ -1,5 +1,11 @@
 import argparse
 import os.path as osp
+import sys
+import os
+
+# add these manually since when using debugger this doesn't work :(
+sys.path.append(os.path.join(os.getcwd(), 'python'))
+sys.path.append(os.path.join(os.getcwd(), 'tvm', 'python'))
 
 import onnx
 import welder

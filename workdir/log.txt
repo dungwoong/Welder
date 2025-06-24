@@ -1,0 +1,1696 @@
+299
+Output808, 
+Output807, 
+tanh806, add805, sum804, 
+dotsplitk803, 
+take802, Constant801, 
+add800, multiply799, cast798, divide797, 
+sqrt796, add795, Constant794, mean793, 
+multiply792, cast791, subtract790, 
+mean789, 
+add788, add787, reshape786, 
+nn.matmul785, 
+nn.relu783, add782, reshape784, reshape781, 
+nn.matmul780, reshape779, 
+add778, multiply777, cast776, divide775, 
+sqrt774, add773, Constant772, mean771, 
+multiply770, cast769, subtract768, 
+mean767, 
+add766, add765, reshape764, 
+nn.matmul763, reshape762, reshape761, transpose760, 
+welder.matmul759, transpose758, reshape757, strided_slice756, 
+divide755, 
+sum754, 
+exp753, subtract752, 
+max751, 
+add750, 
+transpose746, reshape745, strided_slice744, 
+divide749, Constant748, welder.matmul747, transpose743, reshape742, strided_slice741, 
+add740, reshape739, 
+nn.matmul738, reshape737, 
+add736, multiply735, cast734, divide733, 
+sqrt732, add731, Constant730, mean729, 
+cast727, multiply728, subtract726, 
+mean725, 
+add724, add723, reshape722, 
+nn.matmul721, 
+reshape720, nn.relu719, add718, reshape717, 
+nn.matmul716, reshape715, 
+add714, multiply713, cast712, divide711, 
+sqrt710, add709, Constant708, mean707, 
+multiply706, cast705, subtract704, 
+mean703, 
+add702, add701, reshape700, 
+add352, multiply351, cast350, divide349, 
+sqrt348, add347, Constant346, mean345, 
+add650, multiply649, cast648, divide647, 
+multiply344, cast343, subtract342, 
+add340, add339, reshape338, 
+reshape336, add334, nn.relu335, reshape333, 
+multiply329, add330, cast328, divide327, 
+multiply322, cast321, subtract320, 
+mean319, 
+divide627, 
+add318, add317, reshape316, 
+divide307, 
+exp305, subtract304, 
+max303, 
+add302, 
+transpose298, reshape297, strided_slice296, 
+divide301, Constant300, welder.matmul299, transpose295, reshape294, strided_slice293, 
+add612, reshape611, 
+add292, reshape291, 
+add288, multiply287, cast286, divide285, 
+multiply280, cast279, subtract278, 
+add276, add275, reshape274, 
+reshape272, nn.relu271, add270, reshape269, 
+nn.matmul268, reshape267, 
+reshape592, add590, nn.relu591, reshape589, 
+add266, multiply265, cast264, divide263, 
+multiply258, cast257, subtract256, 
+mean255, 
+multiply585, add586, cast584, divide583, 
+add254, add253, reshape252, 
+divide243, 
+exp241, subtract240, 
+add238, 
+transpose234, reshape233, strided_slice232, 
+divide237, Constant236, welder.matmul235, transpose231, reshape230, strided_slice229, 
+divide563, 
+add228, reshape227, 
+add224, multiply223, cast222, divide221, 
+multiply216, cast215, subtract214, 
+add212, add211, reshape210, 
+nn.matmul209, 
+reshape208, nn.relu207, add206, reshape205, 
+nn.matmul204, reshape203, 
+add548, reshape547, 
+add202, multiply201, cast200, divide199, 
+multiply194, cast193, subtract192, 
+add190, add189, reshape188, 
+divide179, 
+exp177, subtract176, 
+max175, 
+transpose246, welder.matmul247, reshape245, strided_slice244, 
+add574, add573, reshape572, 
+multiply88, cast87, subtract86, 
+sum242, 
+add84, add83, reshape82, 
+max239, 
+reshape80, nn.relu79, add78, reshape77, 
+nn.matmul76, reshape75, 
+add458, multiply457, cast456, divide455, 
+mean341, 
+multiply642, cast641, subtract640, 
+add160, multiply159, cast158, divide157, 
+nn.matmul226, reshape225, 
+exp561, subtract560, 
+add74, multiply73, cast72, divide71, 
+sqrt220, add219, Constant218, mean217, 
+add558, 
+multiply66, cast65, subtract64, 
+mean63, 
+add446, add445, reshape444, 
+nn.matmul332, reshape331, 
+add148, add147, reshape146, 
+mean213, 
+transpose554, reshape553, strided_slice552, 
+add62, add61, reshape60, 
+add197, Constant196, sqrt198, mean195, 
+divide51, 
+sum50, 
+divide435, 
+nn.matmul315, reshape314, reshape313, transpose312, 
+exp625, subtract624, 
+multiply137, add138, cast136, divide135, 
+mean14, 
+add420, reshape419, 
+nn.matmul290, reshape289, 
+divide115, 
+nn.matmul81, 
+sum178, 
+reshape528, nn.relu527, add526, reshape525, 
+transpose35, reshape34, strided_slice33, 
+welder.matmul55, transpose54, reshape53, strided_slice52, 
+sqrt21, add20, Constant19, mean18, 
+mean85, 
+reshape464, nn.relu463, add462, reshape461, 
+nn.matmul354, reshape353, 
+add164, reshape163, 
+welder.matmul183, transpose182, reshape181, strided_slice180, 
+add532, add531, reshape530, 
+Constant44, subtract43, expand_dims41, expand_dims40, multiply45, cast42, Constant39, 
+nn.matmul59, reshape58, reshape57, transpose56, 
+sqrt326, add325, Constant324, mean323, 
+nn.relu143, add142, reshape144, reshape141, 
+nn.matmul27, reshape26, 
+transpose426, reshape425, strided_slice424, 
+sqrt92, add91, Constant90, mean89, 
+add468, add467, reshape466, 
+nn.matmul187, reshape186, reshape185, transpose184, 
+multiply536, cast535, subtract534, 
+add46, 
+sqrt70, add69, Constant68, mean67, 
+multiply450, cast449, subtract448, 
+nn.matmul337, 
+add638, add637, reshape636, 
+multiply152, cast151, subtract150, 
+Constant37, welder.matmul36, transpose32, divide38, reshape31, strided_slice30, 
+add430, 
+sum306, 
+transpose618, reshape617, strided_slice616, 
+add126, add125, reshape124, 
+mean191, 
+add544, multiply543, cast542, divide541, 
+exp49, subtract48, 
+max47, 
+exp433, subtract432, 
+welder.matmul311, transpose310, reshape309, strided_slice308, 
+add622, 
+multiply130, cast129, subtract128, 
+nn.matmul251, reshape250, reshape249, transpose248, 
+multiply578, cast577, subtract576, 
+add96, multiply95, cast94, divide93, 
+nn.matmul98, reshape97, 
+multiply472, cast471, subtract470, 
+transpose170, reshape169, strided_slice168, 
+sqrt262, add261, Constant260, mean259, 
+add100, reshape99, 
+divide109, welder.matmul107, Constant108, transpose103, reshape102, strided_slice101, 
+add480, multiply479, cast478, divide477, 
+add174, 
+nn.matmul273, 
+add596, add595, reshape594, 
+transpose106, reshape105, strided_slice104, 
+mean277, 
+multiply600, cast599, subtract598, 
+add110, 
+max111, 
+sqrt284, add283, Constant282, mean281, 
+add608, multiply607, cast606, divide605, 
+exp113, subtract112, 
+sum114, 
+add484, reshape483, 
+welder.matmul119, transpose118, reshape117, strided_slice116, 
+nn.matmul123, reshape122, reshape121, transpose120, 
+transpose490, reshape489, strided_slice488, 
+mean127, 
+add494, 
+sqrt134, add133, Constant132, mean131, 
+exp497, subtract496, 
+nn.matmul140, reshape139, 
+divide499, 
+add13, Constant0, add10, add3, less1, where4, take5, add6, Constant7, less8, Constant9, Constant2, where11, take12, 
+nn.matmul145, 
+multiply17, cast16, subtract15, 
+mean149, 
+add25, multiply24, cast23, divide22, 
+add155, sqrt156, Constant154, mean153, 
+add510, add509, reshape508, 
+nn.matmul162, reshape161, 
+multiply514, cast513, subtract512, 
+add29, reshape28, 
+divide173, welder.matmul171, Constant172, reshape166, transpose167, strided_slice165, 
+add522, multiply521, cast520, divide519, 
+add356, reshape355, 
+Constant364, welder.matmul363, transpose359, reshape358, divide365, strided_slice357, 
+reshape656, add654, nn.relu655, reshape653, 
+transpose362, reshape361, strided_slice360, 
+add366, 
+max367, 
+add660, add659, reshape658, 
+exp369, subtract368, 
+sum370, 
+cast663, multiply664, subtract662, 
+divide371, 
+welder.matmul375, transpose374, reshape373, strided_slice372, 
+multiply671, add672, cast670, divide669, 
+nn.matmul379, reshape378, reshape377, transpose376, 
+add382, add381, reshape380, 
+mean383, 
+add676, reshape675, 
+multiply386, cast385, subtract384, 
+sqrt390, add389, Constant388, mean387, 
+add394, multiply393, cast392, divide391, 
+nn.matmul396, reshape395, 
+transpose682, reshape681, strided_slice680, 
+add398, reshape400, nn.relu399, reshape397, 
+nn.matmul401, 
+add686, 
+add404, add403, reshape402, 
+mean405, 
+exp689, subtract688, 
+multiply408, cast407, subtract406, 
+sqrt412, add411, Constant410, mean409, 
+divide691, 
+add416, multiply415, cast414, divide413, 
+nn.matmul418, reshape417, 
+welder.matmul427, transpose423, reshape422, divide429, Constant428, strided_slice421, 
+max431, 
+sum434, 
+welder.matmul439, transpose438, reshape437, strided_slice436, 
+nn.matmul443, reshape442, reshape441, transpose440, 
+mean447, 
+sqrt454, add453, Constant452, mean451, 
+nn.matmul460, reshape459, 
+nn.matmul465, 
+mean469, 
+sqrt476, Constant474, add475, mean473, 
+nn.matmul482, reshape481, 
+divide493, Constant492, welder.matmul491, transpose487, reshape486, strided_slice485, 
+max495, 
+sum498, 
+welder.matmul503, transpose502, reshape501, strided_slice500, 
+nn.matmul507, reshape506, reshape505, transpose504, 
+mean511, 
+sqrt518, add517, Constant516, mean515, 
+nn.matmul524, reshape523, 
+nn.matmul529, 
+mean533, 
+sqrt540, add539, Constant538, mean537, 
+nn.matmul546, reshape545, 
+divide557, Constant556, transpose551, welder.matmul555, reshape550, strided_slice549, 
+max559, 
+sum562, 
+welder.matmul567, transpose566, reshape565, strided_slice564, 
+nn.matmul571, reshape569, reshape570, transpose568, 
+mean575, 
+sqrt582, add581, Constant580, mean579, 
+nn.matmul588, reshape587, 
+nn.matmul593, 
+mean597, 
+sqrt604, add603, Constant602, mean601, 
+nn.matmul610, reshape609, 
+divide621, welder.matmul619, reshape614, Constant620, transpose615, strided_slice613, 
+max623, 
+sum626, 
+welder.matmul631, transpose630, reshape629, strided_slice628, 
+nn.matmul635, reshape634, reshape633, transpose632, 
+mean639, 
+add645, sqrt646, Constant644, mean643, 
+nn.matmul652, reshape651, 
+nn.matmul657, 
+mean661, 
+add667, sqrt668, Constant666, mean665, 
+nn.matmul674, reshape673, 
+divide685, Constant684, transpose679, welder.matmul683, reshape678, strided_slice677, 
+max687, 
+sum690, 
+welder.matmul695, transpose694, reshape693, strided_slice692, 
+nn.matmul699, reshape698, reshape697, transpose696, 
+2025-06-23 18:30:35 [welder:INFO]: Tuning ['less_add_where_take_add_less_add_where_take_add_0', 'mean_1', 'subtract_cast_multiply_2']
+2025-06-23 18:31:00 [welder:INFO]: result: 0.2042624056339264
+2025-06-23 18:31:00 [welder:INFO]: Tuning ['less_add_where_take_add_less_add_where_take_add_0']
+2025-06-23 18:31:27 [welder:INFO]: result: 0.024000000208616257
+2025-06-23 18:31:27 [welder:INFO]: Tuning ['mean_1']
+2025-06-23 18:31:50 [welder:INFO]: result: 0.008271999657154083
+2025-06-23 18:31:50 [welder:INFO]: Tuning ['subtract_cast_multiply_2']
+2025-06-23 18:31:56 [welder:INFO]: result: 0.20896761119365692
+2025-06-23 18:31:56 [welder:INFO]: Tuning ['less_add_where_take_add_less_add_where_take_add_0', 'mean_1', 'subtract_cast_multiply_2', 'mean_add_sqrt_3', 'divide_cast_multiply_add_4']
+2025-06-23 18:32:00 [welder:INFO]: result: 0.3665066659450531
+2025-06-23 18:32:00 [welder:INFO]: Tuning ['mean_add_sqrt_3']
+2025-06-23 18:32:09 [welder:INFO]: result: 0.04214857146143913
+2025-06-23 18:32:09 [welder:INFO]: Tuning ['divide_cast_multiply_add_4']
+2025-06-23 18:32:16 [welder:INFO]: result: 0.2237440049648285
+2025-06-23 18:32:16 [welder:INFO]: Fusion group created: 0 ['less_add_where_take_add_less_add_where_take_add_0', 'mean_1', 'subtract_cast_multiply_2', 'mean_add_sqrt_3', 'divide_cast_multiply_add_4']
+2025-06-23 18:32:16 [welder:INFO]: Tuning ['reshape_nn_matmul_5', 'reshape_add_6']
+2025-06-23 18:32:24 [welder:INFO]: result: 0.23928000032901764
+2025-06-23 18:32:24 [welder:INFO]: Tuning ['reshape_nn_matmul_5', 'reshape_add_6']
+2025-06-23 18:32:30 [welder:INFO]: result: 0.2343360036611557
+2025-06-23 18:32:30 [welder:INFO]: Tuning ['reshape_nn_matmul_5']
+2025-06-23 18:32:36 [welder:INFO]: result: 0.23630400002002716
+2025-06-23 18:32:36 [welder:INFO]: Tuning ['reshape_add_6']
+2025-06-23 18:32:41 [welder:INFO]: result: 0.12840381264686584
+2025-06-23 18:32:41 [welder:INFO]: Fusion group created: 1 ['reshape_nn_matmul_5', 'reshape_add_6']
+2025-06-23 18:32:41 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_7', 'strided_slice_reshape_transpose_welder_matmul_divide_8']
+2025-06-23 18:32:46 [welder:INFO]: result: 0.06584533303976059
+2025-06-23 18:32:46 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_7']
+2025-06-23 18:32:51 [welder:INFO]: result: 0.033984001725912094
+2025-06-23 18:32:51 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_welder_matmul_divide_8']
+2025-06-23 18:32:58 [welder:INFO]: result: 0.04601142555475235
+2025-06-23 18:32:58 [welder:INFO]: Fusion group created: 2 ['strided_slice_reshape_transpose_7', 'strided_slice_reshape_transpose_welder_matmul_divide_8']
+2025-06-23 18:32:58 [welder:INFO]: Tuning ['expand_dims_expand_dims_cast_subtract_multiply_9']
+2025-06-23 18:33:02 [welder:INFO]: result: 0.002060571452602744
+2025-06-23 18:33:02 [welder:INFO]: Fusion group created: 3 ['expand_dims_expand_dims_cast_subtract_multiply_9']
+2025-06-23 18:33:02 [welder:INFO]: Tuning ['add_10', 'max_11', 'subtract_exp_12']
+2025-06-23 18:33:34 [welder:INFO]: Tuning ['add_10']
+2025-06-23 18:33:41 [welder:INFO]: result: 0.035628799349069595
+2025-06-23 18:33:41 [welder:INFO]: Fusion group created: 4 ['add_10']
+2025-06-23 18:33:41 [welder:INFO]: Tuning ['max_11', 'subtract_exp_12']
+2025-06-23 18:33:48 [welder:INFO]: result: 0.11235199868679047
+2025-06-23 18:33:48 [welder:INFO]: Tuning ['max_11', 'subtract_exp_12']
+2025-06-23 18:33:48 [welder:INFO]: Tuning ['max_11']
+2025-06-23 18:34:06 [welder:INFO]: result: 0.02870776504278183
+2025-06-23 18:34:06 [welder:INFO]: Tuning ['subtract_exp_12']
+2025-06-23 18:34:13 [welder:INFO]: result: 0.05888533219695091
+2025-06-23 18:34:13 [welder:INFO]: Tuning ['max_11']
+2025-06-23 18:34:13 [welder:INFO]: Found in cache
+2025-06-23 18:34:13 [welder:INFO]: Fusion group created: 5 ['max_11']
+2025-06-23 18:34:13 [welder:INFO]: Tuning ['subtract_exp_12', 'sum_13', 'divide_14']
+2025-06-23 18:34:46 [welder:INFO]: Tuning ['subtract_exp_12']
+2025-06-23 18:34:46 [welder:INFO]: Found in cache
+2025-06-23 18:34:46 [welder:INFO]: Fusion group created: 6 ['subtract_exp_12']
+2025-06-23 18:34:46 [welder:INFO]: Tuning ['sum_13', 'divide_14']
+2025-06-23 18:34:54 [welder:INFO]: result: 0.1104160025715828
+2025-06-23 18:34:54 [welder:INFO]: Tuning ['sum_13', 'divide_14']
+2025-06-23 18:34:54 [welder:INFO]: Tuning ['sum_13']
+2025-06-23 18:35:12 [welder:INFO]: result: 0.028729142621159554
+2025-06-23 18:35:12 [welder:INFO]: Tuning ['divide_14']
+2025-06-23 18:35:19 [welder:INFO]: result: 0.058861713856458664
+2025-06-23 18:35:19 [welder:INFO]: Tuning ['sum_13']
+2025-06-23 18:35:19 [welder:INFO]: Found in cache
+2025-06-23 18:35:19 [welder:INFO]: Fusion group created: 7 ['sum_13']
+2025-06-23 18:35:19 [welder:INFO]: Tuning ['divide_14', 'strided_slice_reshape_transpose_welder_matmul_15']
+2025-06-23 18:35:25 [welder:INFO]: result: 0.06671466678380966
+2025-06-23 18:35:25 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_welder_matmul_15']
+2025-06-23 18:35:31 [welder:INFO]: result: 0.03336533531546593
+2025-06-23 18:35:31 [welder:INFO]: Tuning ['divide_14', 'strided_slice_reshape_transpose_welder_matmul_15', 'transpose_reshape_reshape_nn_matmul_16']
+2025-06-23 18:35:34 [welder:INFO]: result: 1.0739200115203857
+2025-06-23 18:35:34 [welder:INFO]: Tuning ['transpose_reshape_reshape_nn_matmul_16']
+2025-06-23 18:35:39 [welder:INFO]: result: 0.08302400261163712
+2025-06-23 18:35:39 [welder:INFO]: Fusion group created: 8 ['divide_14', 'strided_slice_reshape_transpose_welder_matmul_15']
+2025-06-23 18:35:39 [welder:INFO]: Tuning ['transpose_reshape_reshape_nn_matmul_16', 'reshape_add_add_17']
+2025-06-23 18:35:46 [welder:INFO]: result: 0.08432000130414963
+2025-06-23 18:35:46 [welder:INFO]: Tuning ['transpose_reshape_reshape_nn_matmul_16', 'reshape_add_add_17']
+2025-06-23 18:35:53 [welder:INFO]: result: 0.08488000184297562
+2025-06-23 18:35:53 [welder:INFO]: Tuning ['reshape_add_add_17']
+2025-06-23 18:35:58 [welder:INFO]: result: 0.012527999468147755
+2025-06-23 18:35:58 [welder:INFO]: Tuning ['transpose_reshape_reshape_nn_matmul_16', 'reshape_add_add_17', 'mean_18', 'subtract_cast_multiply_19']
+2025-06-23 18:35:58 [welder:INFO]: Fusion group created: 9 ['transpose_reshape_reshape_nn_matmul_16', 'reshape_add_add_17']
+2025-06-23 18:35:58 [welder:INFO]: Tuning ['mean_18', 'subtract_cast_multiply_19']
+2025-06-23 18:36:13 [welder:INFO]: result: 0.22971999645233154
+2025-06-23 18:36:13 [welder:INFO]: Tuning ['mean_18', 'subtract_cast_multiply_19']
+2025-06-23 18:36:13 [welder:INFO]: Tuning ['mean_18']
+2025-06-23 18:36:13 [welder:INFO]: Found in cache
+2025-06-23 18:36:13 [welder:INFO]: Tuning ['subtract_cast_multiply_19']
+2025-06-23 18:36:13 [welder:INFO]: Found in cache
+2025-06-23 18:36:13 [welder:INFO]: Tuning ['mean_18']
+2025-06-23 18:36:13 [welder:INFO]: Found in cache
+2025-06-23 18:36:13 [welder:INFO]: Fusion group created: 10 ['mean_18']
+2025-06-23 18:36:13 [welder:INFO]: Tuning ['subtract_cast_multiply_19', 'mean_add_sqrt_20', 'divide_cast_multiply_add_21']
+2025-06-23 18:36:16 [welder:INFO]: result: 0.3379199802875519
+2025-06-23 18:36:16 [welder:INFO]: Tuning ['mean_add_sqrt_20']
+2025-06-23 18:36:16 [welder:INFO]: Found in cache
+2025-06-23 18:36:16 [welder:INFO]: Tuning ['divide_cast_multiply_add_21']
+2025-06-23 18:36:16 [welder:INFO]: Found in cache
+2025-06-23 18:36:16 [welder:INFO]: Tuning ['subtract_cast_multiply_19', 'mean_add_sqrt_20', 'divide_cast_multiply_add_21', 'reshape_nn_matmul_22', 'reshape_add_nn_relu_reshape_23', 'nn_matmul_24', 'reshape_add_add_25']
+2025-06-23 18:36:19 [welder:INFO]: result: 9.898112297058105
+2025-06-23 18:36:19 [welder:INFO]: Tuning ['reshape_nn_matmul_22']
+2025-06-23 18:36:25 [welder:INFO]: result: 0.31652799248695374
+2025-06-23 18:36:25 [welder:INFO]: Tuning ['reshape_add_nn_relu_reshape_23']
+2025-06-23 18:36:29 [welder:INFO]: result: 0.1749851405620575
+2025-06-23 18:36:29 [welder:INFO]: Tuning ['nn_matmul_24']
+2025-06-23 18:36:35 [welder:INFO]: result: 0.29238399863243103
+2025-06-23 18:36:35 [welder:INFO]: Tuning ['reshape_add_add_25']
+2025-06-23 18:36:35 [welder:INFO]: Found in cache
+2025-06-23 18:36:35 [welder:INFO]: Fusion group created: 11 ['subtract_cast_multiply_19', 'mean_add_sqrt_20', 'divide_cast_multiply_add_21']
+2025-06-23 18:36:35 [welder:INFO]: Tuning ['reshape_nn_matmul_22', 'reshape_add_nn_relu_reshape_23']
+2025-06-23 18:36:41 [welder:INFO]: result: 0.32095998525619507
+2025-06-23 18:36:41 [welder:INFO]: Tuning ['reshape_nn_matmul_22', 'reshape_add_nn_relu_reshape_23']
+2025-06-23 18:36:48 [welder:INFO]: result: 0.31406399607658386
+2025-06-23 18:36:48 [welder:INFO]: Tuning ['reshape_nn_matmul_22', 'reshape_add_nn_relu_reshape_23', 'nn_matmul_24']
+2025-06-23 18:36:48 [welder:INFO]: Fusion group created: 12 ['reshape_nn_matmul_22', 'reshape_add_nn_relu_reshape_23']
+2025-06-23 18:36:48 [welder:INFO]: Tuning ['nn_matmul_24', 'reshape_add_add_25']
+2025-06-23 18:36:55 [welder:INFO]: result: 0.30873599648475647
+2025-06-23 18:36:55 [welder:INFO]: Tuning ['nn_matmul_24', 'reshape_add_add_25']
+2025-06-23 18:37:01 [welder:INFO]: result: 0.31035199761390686
+2025-06-23 18:37:01 [welder:INFO]: Tuning ['nn_matmul_24']
+2025-06-23 18:37:01 [welder:INFO]: Found in cache
+2025-06-23 18:37:01 [welder:INFO]: Fusion group created: 13 ['nn_matmul_24']
+2025-06-23 18:37:01 [welder:INFO]: Tuning ['reshape_add_add_25', 'mean_26', 'subtract_cast_multiply_27']
+2025-06-23 18:37:17 [welder:INFO]: result: 0.22720639407634735
+2025-06-23 18:37:17 [welder:INFO]: Tuning ['mean_26']
+2025-06-23 18:37:17 [welder:INFO]: Found in cache
+2025-06-23 18:37:17 [welder:INFO]: Tuning ['subtract_cast_multiply_27']
+2025-06-23 18:37:17 [welder:INFO]: Found in cache
+2025-06-23 18:37:17 [welder:INFO]: Tuning ['reshape_add_add_25', 'mean_26', 'subtract_cast_multiply_27', 'mean_add_sqrt_28', 'divide_cast_multiply_add_29']
+2025-06-23 18:37:21 [welder:INFO]: result: 0.3619519770145416
+2025-06-23 18:37:21 [welder:INFO]: Tuning ['mean_add_sqrt_28']
+2025-06-23 18:37:21 [welder:INFO]: Found in cache
+2025-06-23 18:37:21 [welder:INFO]: Tuning ['divide_cast_multiply_add_29']
+2025-06-23 18:37:21 [welder:INFO]: Found in cache
+2025-06-23 18:37:21 [welder:INFO]: Fusion group created: 14 ['reshape_add_add_25', 'mean_26', 'subtract_cast_multiply_27', 'mean_add_sqrt_28', 'divide_cast_multiply_add_29']
+2025-06-23 18:37:21 [welder:INFO]: Tuning ['reshape_nn_matmul_30', 'reshape_add_31']
+2025-06-23 18:37:21 [welder:INFO]: Found in cache
+2025-06-23 18:37:21 [welder:INFO]: Tuning ['reshape_nn_matmul_30', 'reshape_add_31']
+2025-06-23 18:37:21 [welder:INFO]: Found in cache
+2025-06-23 18:37:21 [welder:INFO]: Tuning ['reshape_nn_matmul_30']
+2025-06-23 18:37:21 [welder:INFO]: Found in cache
+2025-06-23 18:37:21 [welder:INFO]: Tuning ['reshape_add_31']
+2025-06-23 18:37:21 [welder:INFO]: Found in cache
+2025-06-23 18:37:21 [welder:INFO]: Tuning ['reshape_nn_matmul_30', 'reshape_add_31', 'strided_slice_reshape_transpose_32', 'strided_slice_reshape_transpose_welder_matmul_divide_33', 'add_34', 'max_35', 'subtract_exp_36', 'sum_37', 'divide_38', 'strided_slice_reshape_transpose_welder_matmul_39']
+2025-06-23 18:37:21 [welder:INFO]: Fusion group created: 15 ['reshape_nn_matmul_30', 'reshape_add_31']
+2025-06-23 18:37:21 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_32', 'strided_slice_reshape_transpose_welder_matmul_divide_33']
+2025-06-23 18:37:21 [welder:INFO]: Found in cache
+2025-06-23 18:37:21 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_32']
+2025-06-23 18:37:21 [welder:INFO]: Found in cache
+2025-06-23 18:37:21 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_welder_matmul_divide_33']
+2025-06-23 18:37:21 [welder:INFO]: Found in cache
+2025-06-23 18:37:21 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_32', 'strided_slice_reshape_transpose_welder_matmul_divide_33', 'add_34']
+2025-06-23 18:37:26 [welder:INFO]: result: 0.06756799668073654
+2025-06-23 18:37:26 [welder:INFO]: Tuning ['add_34']
+2025-06-23 18:37:26 [welder:INFO]: Found in cache
+2025-06-23 18:37:26 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_32', 'strided_slice_reshape_transpose_welder_matmul_divide_33', 'add_34', 'max_35', 'subtract_exp_36']
+2025-06-23 18:37:28 [welder:INFO]: result: 0.09756799787282944
+2025-06-23 18:37:28 [welder:INFO]: Tuning ['max_35']
+2025-06-23 18:37:28 [welder:INFO]: Found in cache
+2025-06-23 18:37:28 [welder:INFO]: Tuning ['subtract_exp_36']
+2025-06-23 18:37:28 [welder:INFO]: Found in cache
+2025-06-23 18:37:28 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_32', 'strided_slice_reshape_transpose_welder_matmul_divide_33', 'add_34', 'max_35', 'subtract_exp_36', 'sum_37', 'divide_38']
+2025-06-23 18:37:32 [welder:INFO]: result: 0.29679998755455017
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['sum_37']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['divide_38']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 16 ['strided_slice_reshape_transpose_32', 'strided_slice_reshape_transpose_welder_matmul_divide_33', 'add_34', 'max_35', 'subtract_exp_36']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['sum_37', 'divide_38']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['sum_37', 'divide_38']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['sum_37']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 17 ['sum_37']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['divide_38', 'strided_slice_reshape_transpose_welder_matmul_39']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_welder_matmul_39']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['divide_38', 'strided_slice_reshape_transpose_welder_matmul_39', 'transpose_reshape_reshape_nn_matmul_40']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['transpose_reshape_reshape_nn_matmul_40']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 18 ['divide_38', 'strided_slice_reshape_transpose_welder_matmul_39']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['transpose_reshape_reshape_nn_matmul_40', 'reshape_add_add_41']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['transpose_reshape_reshape_nn_matmul_40', 'reshape_add_add_41']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_add_add_41']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['transpose_reshape_reshape_nn_matmul_40', 'reshape_add_add_41', 'mean_42', 'subtract_cast_multiply_43']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 19 ['transpose_reshape_reshape_nn_matmul_40', 'reshape_add_add_41']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['mean_42', 'subtract_cast_multiply_43']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['mean_42', 'subtract_cast_multiply_43']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['mean_42']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['subtract_cast_multiply_43']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['mean_42']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 20 ['mean_42']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['subtract_cast_multiply_43', 'mean_add_sqrt_44', 'divide_cast_multiply_add_45']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['mean_add_sqrt_44']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['divide_cast_multiply_add_45']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['subtract_cast_multiply_43', 'mean_add_sqrt_44', 'divide_cast_multiply_add_45', 'reshape_nn_matmul_46', 'reshape_add_nn_relu_reshape_47', 'nn_matmul_48', 'reshape_add_add_49']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_46']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_add_nn_relu_reshape_47']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['nn_matmul_48']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_add_add_49']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 21 ['subtract_cast_multiply_43', 'mean_add_sqrt_44', 'divide_cast_multiply_add_45']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_46', 'reshape_add_nn_relu_reshape_47']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_46', 'reshape_add_nn_relu_reshape_47']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_46', 'reshape_add_nn_relu_reshape_47', 'nn_matmul_48']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 22 ['reshape_nn_matmul_46', 'reshape_add_nn_relu_reshape_47']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['nn_matmul_48', 'reshape_add_add_49']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['nn_matmul_48', 'reshape_add_add_49']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['nn_matmul_48']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 23 ['nn_matmul_48']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_add_add_49', 'mean_50', 'subtract_cast_multiply_51']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['mean_50']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['subtract_cast_multiply_51']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_add_add_49', 'mean_50', 'subtract_cast_multiply_51', 'mean_add_sqrt_52', 'divide_cast_multiply_add_53']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['mean_add_sqrt_52']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['divide_cast_multiply_add_53']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 24 ['reshape_add_add_49', 'mean_50', 'subtract_cast_multiply_51', 'mean_add_sqrt_52', 'divide_cast_multiply_add_53']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_54', 'reshape_add_55']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_54', 'reshape_add_55']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_54']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_add_55']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_54', 'reshape_add_55', 'strided_slice_reshape_transpose_56', 'strided_slice_reshape_transpose_welder_matmul_divide_57', 'add_58', 'max_59', 'subtract_exp_60', 'sum_61', 'divide_62', 'strided_slice_reshape_transpose_welder_matmul_63']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 25 ['reshape_nn_matmul_54', 'reshape_add_55']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_56', 'strided_slice_reshape_transpose_welder_matmul_divide_57']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_56']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_welder_matmul_divide_57']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_56', 'strided_slice_reshape_transpose_welder_matmul_divide_57', 'add_58']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['add_58']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_56', 'strided_slice_reshape_transpose_welder_matmul_divide_57', 'add_58', 'max_59', 'subtract_exp_60']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['max_59']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['subtract_exp_60']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_56', 'strided_slice_reshape_transpose_welder_matmul_divide_57', 'add_58', 'max_59', 'subtract_exp_60', 'sum_61', 'divide_62']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['sum_61']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['divide_62']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 26 ['strided_slice_reshape_transpose_56', 'strided_slice_reshape_transpose_welder_matmul_divide_57', 'add_58', 'max_59', 'subtract_exp_60']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['sum_61', 'divide_62']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['sum_61', 'divide_62']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['sum_61']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 27 ['sum_61']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['divide_62', 'strided_slice_reshape_transpose_welder_matmul_63']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_welder_matmul_63']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['divide_62', 'strided_slice_reshape_transpose_welder_matmul_63', 'transpose_reshape_reshape_nn_matmul_64']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['transpose_reshape_reshape_nn_matmul_64']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 28 ['divide_62', 'strided_slice_reshape_transpose_welder_matmul_63']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['transpose_reshape_reshape_nn_matmul_64', 'reshape_add_add_65']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['transpose_reshape_reshape_nn_matmul_64', 'reshape_add_add_65']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_add_add_65']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['transpose_reshape_reshape_nn_matmul_64', 'reshape_add_add_65', 'mean_66', 'subtract_cast_multiply_67']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 29 ['transpose_reshape_reshape_nn_matmul_64', 'reshape_add_add_65']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['mean_66', 'subtract_cast_multiply_67']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['mean_66', 'subtract_cast_multiply_67']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['mean_66']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['subtract_cast_multiply_67']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['mean_66']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 30 ['mean_66']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['subtract_cast_multiply_67', 'mean_add_sqrt_68', 'divide_cast_multiply_add_69']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['mean_add_sqrt_68']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['divide_cast_multiply_add_69']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['subtract_cast_multiply_67', 'mean_add_sqrt_68', 'divide_cast_multiply_add_69', 'reshape_nn_matmul_70', 'reshape_add_nn_relu_reshape_71', 'nn_matmul_72', 'reshape_add_add_73']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_70']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_add_nn_relu_reshape_71']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['nn_matmul_72']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_add_add_73']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 31 ['subtract_cast_multiply_67', 'mean_add_sqrt_68', 'divide_cast_multiply_add_69']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_70', 'reshape_add_nn_relu_reshape_71']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_70', 'reshape_add_nn_relu_reshape_71']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_70', 'reshape_add_nn_relu_reshape_71', 'nn_matmul_72']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 32 ['reshape_nn_matmul_70', 'reshape_add_nn_relu_reshape_71']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['nn_matmul_72', 'reshape_add_add_73']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['nn_matmul_72', 'reshape_add_add_73']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['nn_matmul_72']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 33 ['nn_matmul_72']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_add_add_73', 'mean_74', 'subtract_cast_multiply_75']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['mean_74']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['subtract_cast_multiply_75']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_add_add_73', 'mean_74', 'subtract_cast_multiply_75', 'mean_add_sqrt_76', 'divide_cast_multiply_add_77']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['mean_add_sqrt_76']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['divide_cast_multiply_add_77']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 34 ['reshape_add_add_73', 'mean_74', 'subtract_cast_multiply_75', 'mean_add_sqrt_76', 'divide_cast_multiply_add_77']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_78', 'reshape_add_79']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_78', 'reshape_add_79']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_78']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_add_79']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_78', 'reshape_add_79', 'strided_slice_reshape_transpose_80', 'strided_slice_reshape_transpose_welder_matmul_divide_81', 'add_82', 'max_83', 'subtract_exp_84', 'sum_85', 'divide_86', 'strided_slice_reshape_transpose_welder_matmul_87']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 35 ['reshape_nn_matmul_78', 'reshape_add_79']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_80', 'strided_slice_reshape_transpose_welder_matmul_divide_81']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_80']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_welder_matmul_divide_81']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_80', 'strided_slice_reshape_transpose_welder_matmul_divide_81', 'add_82']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['add_82']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_80', 'strided_slice_reshape_transpose_welder_matmul_divide_81', 'add_82', 'max_83', 'subtract_exp_84']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['max_83']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['subtract_exp_84']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_80', 'strided_slice_reshape_transpose_welder_matmul_divide_81', 'add_82', 'max_83', 'subtract_exp_84', 'sum_85', 'divide_86']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['sum_85']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['divide_86']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 36 ['strided_slice_reshape_transpose_80', 'strided_slice_reshape_transpose_welder_matmul_divide_81', 'add_82', 'max_83', 'subtract_exp_84']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['sum_85', 'divide_86']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['sum_85', 'divide_86']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['sum_85']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 37 ['sum_85']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['divide_86', 'strided_slice_reshape_transpose_welder_matmul_87']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_welder_matmul_87']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['divide_86', 'strided_slice_reshape_transpose_welder_matmul_87', 'transpose_reshape_reshape_nn_matmul_88']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['transpose_reshape_reshape_nn_matmul_88']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 38 ['divide_86', 'strided_slice_reshape_transpose_welder_matmul_87']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['transpose_reshape_reshape_nn_matmul_88', 'reshape_add_add_89']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['transpose_reshape_reshape_nn_matmul_88', 'reshape_add_add_89']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_add_add_89']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['transpose_reshape_reshape_nn_matmul_88', 'reshape_add_add_89', 'mean_90', 'subtract_cast_multiply_91']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 39 ['transpose_reshape_reshape_nn_matmul_88', 'reshape_add_add_89']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['mean_90', 'subtract_cast_multiply_91']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['mean_90', 'subtract_cast_multiply_91']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['mean_90']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['subtract_cast_multiply_91']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['mean_90']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 40 ['mean_90']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['subtract_cast_multiply_91', 'mean_add_sqrt_92', 'divide_cast_multiply_add_93']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['mean_add_sqrt_92']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['divide_cast_multiply_add_93']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['subtract_cast_multiply_91', 'mean_add_sqrt_92', 'divide_cast_multiply_add_93', 'reshape_nn_matmul_94', 'reshape_add_nn_relu_reshape_95', 'nn_matmul_96', 'reshape_add_add_97']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_94']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_add_nn_relu_reshape_95']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['nn_matmul_96']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_add_add_97']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 41 ['subtract_cast_multiply_91', 'mean_add_sqrt_92', 'divide_cast_multiply_add_93']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_94', 'reshape_add_nn_relu_reshape_95']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_94', 'reshape_add_nn_relu_reshape_95']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_94', 'reshape_add_nn_relu_reshape_95', 'nn_matmul_96']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 42 ['reshape_nn_matmul_94', 'reshape_add_nn_relu_reshape_95']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['nn_matmul_96', 'reshape_add_add_97']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['nn_matmul_96', 'reshape_add_add_97']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['nn_matmul_96']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 43 ['nn_matmul_96']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_add_add_97', 'mean_98', 'subtract_cast_multiply_99']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['mean_98']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['subtract_cast_multiply_99']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_add_add_97', 'mean_98', 'subtract_cast_multiply_99', 'mean_add_sqrt_100', 'divide_cast_multiply_add_101']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['mean_add_sqrt_100']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['divide_cast_multiply_add_101']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 44 ['reshape_add_add_97', 'mean_98', 'subtract_cast_multiply_99', 'mean_add_sqrt_100', 'divide_cast_multiply_add_101']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_102', 'reshape_add_103']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_102', 'reshape_add_103']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_102']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_add_103']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_102', 'reshape_add_103', 'strided_slice_reshape_transpose_104', 'strided_slice_reshape_transpose_welder_matmul_divide_105', 'add_106', 'max_107', 'subtract_exp_108', 'sum_109', 'divide_110', 'strided_slice_reshape_transpose_welder_matmul_111']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 45 ['reshape_nn_matmul_102', 'reshape_add_103']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_104', 'strided_slice_reshape_transpose_welder_matmul_divide_105']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_104']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_welder_matmul_divide_105']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_104', 'strided_slice_reshape_transpose_welder_matmul_divide_105', 'add_106']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['add_106']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_104', 'strided_slice_reshape_transpose_welder_matmul_divide_105', 'add_106', 'max_107', 'subtract_exp_108']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['max_107']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['subtract_exp_108']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_104', 'strided_slice_reshape_transpose_welder_matmul_divide_105', 'add_106', 'max_107', 'subtract_exp_108', 'sum_109', 'divide_110']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['sum_109']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['divide_110']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 46 ['strided_slice_reshape_transpose_104', 'strided_slice_reshape_transpose_welder_matmul_divide_105', 'add_106', 'max_107', 'subtract_exp_108']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['sum_109', 'divide_110']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['sum_109', 'divide_110']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['sum_109']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 47 ['sum_109']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['divide_110', 'strided_slice_reshape_transpose_welder_matmul_111']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_welder_matmul_111']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['divide_110', 'strided_slice_reshape_transpose_welder_matmul_111', 'transpose_reshape_reshape_nn_matmul_112']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['transpose_reshape_reshape_nn_matmul_112']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 48 ['divide_110', 'strided_slice_reshape_transpose_welder_matmul_111']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['transpose_reshape_reshape_nn_matmul_112', 'reshape_add_add_113']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['transpose_reshape_reshape_nn_matmul_112', 'reshape_add_add_113']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_add_add_113']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['transpose_reshape_reshape_nn_matmul_112', 'reshape_add_add_113', 'mean_114', 'subtract_cast_multiply_115']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 49 ['transpose_reshape_reshape_nn_matmul_112', 'reshape_add_add_113']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['mean_114', 'subtract_cast_multiply_115']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['mean_114', 'subtract_cast_multiply_115']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['mean_114']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['subtract_cast_multiply_115']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['mean_114']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 50 ['mean_114']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['subtract_cast_multiply_115', 'mean_add_sqrt_116', 'divide_cast_multiply_add_117']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['mean_add_sqrt_116']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['divide_cast_multiply_add_117']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['subtract_cast_multiply_115', 'mean_add_sqrt_116', 'divide_cast_multiply_add_117', 'reshape_nn_matmul_118', 'reshape_add_nn_relu_reshape_119', 'nn_matmul_120', 'reshape_add_add_121']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_118']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_add_nn_relu_reshape_119']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['nn_matmul_120']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_add_add_121']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 51 ['subtract_cast_multiply_115', 'mean_add_sqrt_116', 'divide_cast_multiply_add_117']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_118', 'reshape_add_nn_relu_reshape_119']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_118', 'reshape_add_nn_relu_reshape_119']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_118', 'reshape_add_nn_relu_reshape_119', 'nn_matmul_120']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 52 ['reshape_nn_matmul_118', 'reshape_add_nn_relu_reshape_119']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['nn_matmul_120', 'reshape_add_add_121']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['nn_matmul_120', 'reshape_add_add_121']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['nn_matmul_120']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 53 ['nn_matmul_120']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_add_add_121', 'mean_122', 'subtract_cast_multiply_123']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['mean_122']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['subtract_cast_multiply_123']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_add_add_121', 'mean_122', 'subtract_cast_multiply_123', 'mean_add_sqrt_124', 'divide_cast_multiply_add_125']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['mean_add_sqrt_124']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['divide_cast_multiply_add_125']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 54 ['reshape_add_add_121', 'mean_122', 'subtract_cast_multiply_123', 'mean_add_sqrt_124', 'divide_cast_multiply_add_125']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_126', 'reshape_add_127']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_126', 'reshape_add_127']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_126']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_add_127']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_126', 'reshape_add_127', 'strided_slice_reshape_transpose_128', 'strided_slice_reshape_transpose_welder_matmul_divide_129', 'add_130', 'max_131', 'subtract_exp_132', 'sum_133', 'divide_134', 'strided_slice_reshape_transpose_welder_matmul_135']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 55 ['reshape_nn_matmul_126', 'reshape_add_127']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_128', 'strided_slice_reshape_transpose_welder_matmul_divide_129']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_128']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_welder_matmul_divide_129']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_128', 'strided_slice_reshape_transpose_welder_matmul_divide_129', 'add_130']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['add_130']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_128', 'strided_slice_reshape_transpose_welder_matmul_divide_129', 'add_130', 'max_131', 'subtract_exp_132']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['max_131']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['subtract_exp_132']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_128', 'strided_slice_reshape_transpose_welder_matmul_divide_129', 'add_130', 'max_131', 'subtract_exp_132', 'sum_133', 'divide_134']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['sum_133']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['divide_134']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 56 ['strided_slice_reshape_transpose_128', 'strided_slice_reshape_transpose_welder_matmul_divide_129', 'add_130', 'max_131', 'subtract_exp_132']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['sum_133', 'divide_134']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['sum_133', 'divide_134']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['sum_133']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 57 ['sum_133']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['divide_134', 'strided_slice_reshape_transpose_welder_matmul_135']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_welder_matmul_135']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['divide_134', 'strided_slice_reshape_transpose_welder_matmul_135', 'transpose_reshape_reshape_nn_matmul_136']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['transpose_reshape_reshape_nn_matmul_136']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 58 ['divide_134', 'strided_slice_reshape_transpose_welder_matmul_135']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['transpose_reshape_reshape_nn_matmul_136', 'reshape_add_add_137']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['transpose_reshape_reshape_nn_matmul_136', 'reshape_add_add_137']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_add_add_137']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['transpose_reshape_reshape_nn_matmul_136', 'reshape_add_add_137', 'mean_138', 'subtract_cast_multiply_139']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 59 ['transpose_reshape_reshape_nn_matmul_136', 'reshape_add_add_137']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['mean_138', 'subtract_cast_multiply_139']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['mean_138', 'subtract_cast_multiply_139']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['mean_138']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['subtract_cast_multiply_139']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['mean_138']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 60 ['mean_138']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['subtract_cast_multiply_139', 'mean_add_sqrt_140', 'divide_cast_multiply_add_141']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['mean_add_sqrt_140']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['divide_cast_multiply_add_141']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['subtract_cast_multiply_139', 'mean_add_sqrt_140', 'divide_cast_multiply_add_141', 'reshape_nn_matmul_142', 'reshape_add_nn_relu_reshape_143', 'nn_matmul_144', 'reshape_add_add_145']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_142']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_add_nn_relu_reshape_143']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['nn_matmul_144']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_add_add_145']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 61 ['subtract_cast_multiply_139', 'mean_add_sqrt_140', 'divide_cast_multiply_add_141']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_142', 'reshape_add_nn_relu_reshape_143']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_142', 'reshape_add_nn_relu_reshape_143']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_142', 'reshape_add_nn_relu_reshape_143', 'nn_matmul_144']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 62 ['reshape_nn_matmul_142', 'reshape_add_nn_relu_reshape_143']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['nn_matmul_144', 'reshape_add_add_145']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['nn_matmul_144', 'reshape_add_add_145']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['nn_matmul_144']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 63 ['nn_matmul_144']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_add_add_145', 'mean_146', 'subtract_cast_multiply_147']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['mean_146']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['subtract_cast_multiply_147']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_add_add_145', 'mean_146', 'subtract_cast_multiply_147', 'mean_add_sqrt_148', 'divide_cast_multiply_add_149']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['mean_add_sqrt_148']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['divide_cast_multiply_add_149']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 64 ['reshape_add_add_145', 'mean_146', 'subtract_cast_multiply_147', 'mean_add_sqrt_148', 'divide_cast_multiply_add_149']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_150', 'reshape_add_151']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_150', 'reshape_add_151']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_150']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_add_151']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_150', 'reshape_add_151', 'strided_slice_reshape_transpose_152', 'strided_slice_reshape_transpose_welder_matmul_divide_153', 'add_154', 'max_155', 'subtract_exp_156', 'sum_157', 'divide_158', 'strided_slice_reshape_transpose_welder_matmul_159']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 65 ['reshape_nn_matmul_150', 'reshape_add_151']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_152', 'strided_slice_reshape_transpose_welder_matmul_divide_153']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_152']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_welder_matmul_divide_153']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_152', 'strided_slice_reshape_transpose_welder_matmul_divide_153', 'add_154']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['add_154']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_152', 'strided_slice_reshape_transpose_welder_matmul_divide_153', 'add_154', 'max_155', 'subtract_exp_156']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['max_155']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['subtract_exp_156']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_152', 'strided_slice_reshape_transpose_welder_matmul_divide_153', 'add_154', 'max_155', 'subtract_exp_156', 'sum_157', 'divide_158']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['sum_157']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['divide_158']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 66 ['strided_slice_reshape_transpose_152', 'strided_slice_reshape_transpose_welder_matmul_divide_153', 'add_154', 'max_155', 'subtract_exp_156']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['sum_157', 'divide_158']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['sum_157', 'divide_158']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['sum_157']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 67 ['sum_157']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['divide_158', 'strided_slice_reshape_transpose_welder_matmul_159']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_welder_matmul_159']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['divide_158', 'strided_slice_reshape_transpose_welder_matmul_159', 'transpose_reshape_reshape_nn_matmul_160']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['transpose_reshape_reshape_nn_matmul_160']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 68 ['divide_158', 'strided_slice_reshape_transpose_welder_matmul_159']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['transpose_reshape_reshape_nn_matmul_160', 'reshape_add_add_161']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['transpose_reshape_reshape_nn_matmul_160', 'reshape_add_add_161']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_add_add_161']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['transpose_reshape_reshape_nn_matmul_160', 'reshape_add_add_161', 'mean_162', 'subtract_cast_multiply_163']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 69 ['transpose_reshape_reshape_nn_matmul_160', 'reshape_add_add_161']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['mean_162', 'subtract_cast_multiply_163']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['mean_162', 'subtract_cast_multiply_163']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['mean_162']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['subtract_cast_multiply_163']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['mean_162']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 70 ['mean_162']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['subtract_cast_multiply_163', 'mean_add_sqrt_164', 'divide_cast_multiply_add_165']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['mean_add_sqrt_164']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['divide_cast_multiply_add_165']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['subtract_cast_multiply_163', 'mean_add_sqrt_164', 'divide_cast_multiply_add_165', 'reshape_nn_matmul_166', 'reshape_add_nn_relu_reshape_167', 'nn_matmul_168', 'reshape_add_add_169']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_166']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_add_nn_relu_reshape_167']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['nn_matmul_168']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_add_add_169']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 71 ['subtract_cast_multiply_163', 'mean_add_sqrt_164', 'divide_cast_multiply_add_165']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_166', 'reshape_add_nn_relu_reshape_167']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_166', 'reshape_add_nn_relu_reshape_167']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_166', 'reshape_add_nn_relu_reshape_167', 'nn_matmul_168']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 72 ['reshape_nn_matmul_166', 'reshape_add_nn_relu_reshape_167']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['nn_matmul_168', 'reshape_add_add_169']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['nn_matmul_168', 'reshape_add_add_169']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['nn_matmul_168']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 73 ['nn_matmul_168']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_add_add_169', 'mean_170', 'subtract_cast_multiply_171']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['mean_170']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['subtract_cast_multiply_171']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_add_add_169', 'mean_170', 'subtract_cast_multiply_171', 'mean_add_sqrt_172', 'divide_cast_multiply_add_173']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['mean_add_sqrt_172']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['divide_cast_multiply_add_173']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 74 ['reshape_add_add_169', 'mean_170', 'subtract_cast_multiply_171', 'mean_add_sqrt_172', 'divide_cast_multiply_add_173']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_174', 'reshape_add_175']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_174', 'reshape_add_175']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_174']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_add_175']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_174', 'reshape_add_175', 'strided_slice_reshape_transpose_176', 'strided_slice_reshape_transpose_welder_matmul_divide_177', 'add_178', 'max_179', 'subtract_exp_180', 'sum_181', 'divide_182', 'strided_slice_reshape_transpose_welder_matmul_183']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 75 ['reshape_nn_matmul_174', 'reshape_add_175']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_176', 'strided_slice_reshape_transpose_welder_matmul_divide_177']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_176']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_welder_matmul_divide_177']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_176', 'strided_slice_reshape_transpose_welder_matmul_divide_177', 'add_178']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['add_178']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_176', 'strided_slice_reshape_transpose_welder_matmul_divide_177', 'add_178', 'max_179', 'subtract_exp_180']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['max_179']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['subtract_exp_180']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_176', 'strided_slice_reshape_transpose_welder_matmul_divide_177', 'add_178', 'max_179', 'subtract_exp_180', 'sum_181', 'divide_182']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['sum_181']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['divide_182']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 76 ['strided_slice_reshape_transpose_176', 'strided_slice_reshape_transpose_welder_matmul_divide_177', 'add_178', 'max_179', 'subtract_exp_180']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['sum_181', 'divide_182']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['sum_181', 'divide_182']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['sum_181']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 77 ['sum_181']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['divide_182', 'strided_slice_reshape_transpose_welder_matmul_183']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_welder_matmul_183']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['divide_182', 'strided_slice_reshape_transpose_welder_matmul_183', 'transpose_reshape_reshape_nn_matmul_184']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['transpose_reshape_reshape_nn_matmul_184']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 78 ['divide_182', 'strided_slice_reshape_transpose_welder_matmul_183']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['transpose_reshape_reshape_nn_matmul_184', 'reshape_add_add_185']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['transpose_reshape_reshape_nn_matmul_184', 'reshape_add_add_185']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_add_add_185']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['transpose_reshape_reshape_nn_matmul_184', 'reshape_add_add_185', 'mean_186', 'subtract_cast_multiply_187']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 79 ['transpose_reshape_reshape_nn_matmul_184', 'reshape_add_add_185']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['mean_186', 'subtract_cast_multiply_187']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['mean_186', 'subtract_cast_multiply_187']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['mean_186']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['subtract_cast_multiply_187']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['mean_186']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 80 ['mean_186']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['subtract_cast_multiply_187', 'mean_add_sqrt_188', 'divide_cast_multiply_add_189']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['mean_add_sqrt_188']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['divide_cast_multiply_add_189']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['subtract_cast_multiply_187', 'mean_add_sqrt_188', 'divide_cast_multiply_add_189', 'reshape_nn_matmul_190', 'reshape_add_nn_relu_reshape_191', 'nn_matmul_192', 'reshape_add_add_193']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_190']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_add_nn_relu_reshape_191']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['nn_matmul_192']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_add_add_193']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 81 ['subtract_cast_multiply_187', 'mean_add_sqrt_188', 'divide_cast_multiply_add_189']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_190', 'reshape_add_nn_relu_reshape_191']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_190', 'reshape_add_nn_relu_reshape_191']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_190', 'reshape_add_nn_relu_reshape_191', 'nn_matmul_192']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 82 ['reshape_nn_matmul_190', 'reshape_add_nn_relu_reshape_191']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['nn_matmul_192', 'reshape_add_add_193']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['nn_matmul_192', 'reshape_add_add_193']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['nn_matmul_192']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 83 ['nn_matmul_192']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_add_add_193', 'mean_194', 'subtract_cast_multiply_195']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['mean_194']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['subtract_cast_multiply_195']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_add_add_193', 'mean_194', 'subtract_cast_multiply_195', 'mean_add_sqrt_196', 'divide_cast_multiply_add_197']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['mean_add_sqrt_196']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['divide_cast_multiply_add_197']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 84 ['reshape_add_add_193', 'mean_194', 'subtract_cast_multiply_195', 'mean_add_sqrt_196', 'divide_cast_multiply_add_197']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_198', 'reshape_add_199']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_198', 'reshape_add_199']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_198']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_add_199']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['reshape_nn_matmul_198', 'reshape_add_199', 'strided_slice_reshape_transpose_200', 'strided_slice_reshape_transpose_welder_matmul_divide_201', 'add_202', 'max_203', 'subtract_exp_204', 'sum_205', 'divide_206', 'strided_slice_reshape_transpose_welder_matmul_207']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Fusion group created: 85 ['reshape_nn_matmul_198', 'reshape_add_199']
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_200', 'strided_slice_reshape_transpose_welder_matmul_divide_201']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_200']
+2025-06-23 18:37:32 [welder:INFO]: Found in cache
+2025-06-23 18:37:32 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_welder_matmul_divide_201']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_200', 'strided_slice_reshape_transpose_welder_matmul_divide_201', 'add_202']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['add_202']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_200', 'strided_slice_reshape_transpose_welder_matmul_divide_201', 'add_202', 'max_203', 'subtract_exp_204']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['max_203']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['subtract_exp_204']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_200', 'strided_slice_reshape_transpose_welder_matmul_divide_201', 'add_202', 'max_203', 'subtract_exp_204', 'sum_205', 'divide_206']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['sum_205']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['divide_206']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Fusion group created: 86 ['strided_slice_reshape_transpose_200', 'strided_slice_reshape_transpose_welder_matmul_divide_201', 'add_202', 'max_203', 'subtract_exp_204']
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['sum_205', 'divide_206']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['sum_205', 'divide_206']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['sum_205']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Fusion group created: 87 ['sum_205']
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['divide_206', 'strided_slice_reshape_transpose_welder_matmul_207']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_welder_matmul_207']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['divide_206', 'strided_slice_reshape_transpose_welder_matmul_207', 'transpose_reshape_reshape_nn_matmul_208']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['transpose_reshape_reshape_nn_matmul_208']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Fusion group created: 88 ['divide_206', 'strided_slice_reshape_transpose_welder_matmul_207']
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['transpose_reshape_reshape_nn_matmul_208', 'reshape_add_add_209']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['transpose_reshape_reshape_nn_matmul_208', 'reshape_add_add_209']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_add_add_209']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['transpose_reshape_reshape_nn_matmul_208', 'reshape_add_add_209', 'mean_210', 'subtract_cast_multiply_211']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Fusion group created: 89 ['transpose_reshape_reshape_nn_matmul_208', 'reshape_add_add_209']
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['mean_210', 'subtract_cast_multiply_211']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['mean_210', 'subtract_cast_multiply_211']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['mean_210']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['subtract_cast_multiply_211']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['mean_210']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Fusion group created: 90 ['mean_210']
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['subtract_cast_multiply_211', 'mean_add_sqrt_212', 'divide_cast_multiply_add_213']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['mean_add_sqrt_212']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['divide_cast_multiply_add_213']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['subtract_cast_multiply_211', 'mean_add_sqrt_212', 'divide_cast_multiply_add_213', 'reshape_nn_matmul_214', 'reshape_add_nn_relu_reshape_215', 'nn_matmul_216', 'reshape_add_add_217']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_nn_matmul_214']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_add_nn_relu_reshape_215']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['nn_matmul_216']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_add_add_217']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Fusion group created: 91 ['subtract_cast_multiply_211', 'mean_add_sqrt_212', 'divide_cast_multiply_add_213']
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_nn_matmul_214', 'reshape_add_nn_relu_reshape_215']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_nn_matmul_214', 'reshape_add_nn_relu_reshape_215']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_nn_matmul_214', 'reshape_add_nn_relu_reshape_215', 'nn_matmul_216']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Fusion group created: 92 ['reshape_nn_matmul_214', 'reshape_add_nn_relu_reshape_215']
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['nn_matmul_216', 'reshape_add_add_217']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['nn_matmul_216', 'reshape_add_add_217']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['nn_matmul_216']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Fusion group created: 93 ['nn_matmul_216']
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_add_add_217', 'mean_218', 'subtract_cast_multiply_219']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['mean_218']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['subtract_cast_multiply_219']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_add_add_217', 'mean_218', 'subtract_cast_multiply_219', 'mean_add_sqrt_220', 'divide_cast_multiply_add_221']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['mean_add_sqrt_220']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['divide_cast_multiply_add_221']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Fusion group created: 94 ['reshape_add_add_217', 'mean_218', 'subtract_cast_multiply_219', 'mean_add_sqrt_220', 'divide_cast_multiply_add_221']
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_nn_matmul_222', 'reshape_add_223']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_nn_matmul_222', 'reshape_add_223']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_nn_matmul_222']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_add_223']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_nn_matmul_222', 'reshape_add_223', 'strided_slice_reshape_transpose_224', 'strided_slice_reshape_transpose_welder_matmul_divide_225', 'add_226', 'max_227', 'subtract_exp_228', 'sum_229', 'divide_230', 'strided_slice_reshape_transpose_welder_matmul_231']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Fusion group created: 95 ['reshape_nn_matmul_222', 'reshape_add_223']
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_224', 'strided_slice_reshape_transpose_welder_matmul_divide_225']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_224']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_welder_matmul_divide_225']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_224', 'strided_slice_reshape_transpose_welder_matmul_divide_225', 'add_226']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['add_226']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_224', 'strided_slice_reshape_transpose_welder_matmul_divide_225', 'add_226', 'max_227', 'subtract_exp_228']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['max_227']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['subtract_exp_228']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_224', 'strided_slice_reshape_transpose_welder_matmul_divide_225', 'add_226', 'max_227', 'subtract_exp_228', 'sum_229', 'divide_230']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['sum_229']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['divide_230']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Fusion group created: 96 ['strided_slice_reshape_transpose_224', 'strided_slice_reshape_transpose_welder_matmul_divide_225', 'add_226', 'max_227', 'subtract_exp_228']
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['sum_229', 'divide_230']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['sum_229', 'divide_230']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['sum_229']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Fusion group created: 97 ['sum_229']
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['divide_230', 'strided_slice_reshape_transpose_welder_matmul_231']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_welder_matmul_231']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['divide_230', 'strided_slice_reshape_transpose_welder_matmul_231', 'transpose_reshape_reshape_nn_matmul_232']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['transpose_reshape_reshape_nn_matmul_232']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Fusion group created: 98 ['divide_230', 'strided_slice_reshape_transpose_welder_matmul_231']
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['transpose_reshape_reshape_nn_matmul_232', 'reshape_add_add_233']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['transpose_reshape_reshape_nn_matmul_232', 'reshape_add_add_233']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_add_add_233']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['transpose_reshape_reshape_nn_matmul_232', 'reshape_add_add_233', 'mean_234', 'subtract_cast_multiply_235']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Fusion group created: 99 ['transpose_reshape_reshape_nn_matmul_232', 'reshape_add_add_233']
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['mean_234', 'subtract_cast_multiply_235']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['mean_234', 'subtract_cast_multiply_235']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['mean_234']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['subtract_cast_multiply_235']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['mean_234']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Fusion group created: 100 ['mean_234']
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['subtract_cast_multiply_235', 'mean_add_sqrt_236', 'divide_cast_multiply_add_237']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['mean_add_sqrt_236']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['divide_cast_multiply_add_237']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['subtract_cast_multiply_235', 'mean_add_sqrt_236', 'divide_cast_multiply_add_237', 'reshape_nn_matmul_238', 'reshape_add_nn_relu_reshape_239', 'nn_matmul_240', 'reshape_add_add_241']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_nn_matmul_238']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_add_nn_relu_reshape_239']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['nn_matmul_240']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_add_add_241']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Fusion group created: 101 ['subtract_cast_multiply_235', 'mean_add_sqrt_236', 'divide_cast_multiply_add_237']
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_nn_matmul_238', 'reshape_add_nn_relu_reshape_239']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_nn_matmul_238', 'reshape_add_nn_relu_reshape_239']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_nn_matmul_238', 'reshape_add_nn_relu_reshape_239', 'nn_matmul_240']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Fusion group created: 102 ['reshape_nn_matmul_238', 'reshape_add_nn_relu_reshape_239']
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['nn_matmul_240', 'reshape_add_add_241']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['nn_matmul_240', 'reshape_add_add_241']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['nn_matmul_240']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Fusion group created: 103 ['nn_matmul_240']
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_add_add_241', 'mean_242', 'subtract_cast_multiply_243']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['mean_242']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['subtract_cast_multiply_243']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_add_add_241', 'mean_242', 'subtract_cast_multiply_243', 'mean_add_sqrt_244', 'divide_cast_multiply_add_245']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['mean_add_sqrt_244']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['divide_cast_multiply_add_245']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Fusion group created: 104 ['reshape_add_add_241', 'mean_242', 'subtract_cast_multiply_243', 'mean_add_sqrt_244', 'divide_cast_multiply_add_245']
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_nn_matmul_246', 'reshape_add_247']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_nn_matmul_246', 'reshape_add_247']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_nn_matmul_246']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_add_247']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_nn_matmul_246', 'reshape_add_247', 'strided_slice_reshape_transpose_248', 'strided_slice_reshape_transpose_welder_matmul_divide_249', 'add_250', 'max_251', 'subtract_exp_252', 'sum_253', 'divide_254', 'strided_slice_reshape_transpose_welder_matmul_255']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Fusion group created: 105 ['reshape_nn_matmul_246', 'reshape_add_247']
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_248', 'strided_slice_reshape_transpose_welder_matmul_divide_249']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_248']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_welder_matmul_divide_249']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_248', 'strided_slice_reshape_transpose_welder_matmul_divide_249', 'add_250']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['add_250']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_248', 'strided_slice_reshape_transpose_welder_matmul_divide_249', 'add_250', 'max_251', 'subtract_exp_252']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['max_251']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['subtract_exp_252']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_248', 'strided_slice_reshape_transpose_welder_matmul_divide_249', 'add_250', 'max_251', 'subtract_exp_252', 'sum_253', 'divide_254']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['sum_253']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['divide_254']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Fusion group created: 106 ['strided_slice_reshape_transpose_248', 'strided_slice_reshape_transpose_welder_matmul_divide_249', 'add_250', 'max_251', 'subtract_exp_252']
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['sum_253', 'divide_254']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['sum_253', 'divide_254']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['sum_253']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Fusion group created: 107 ['sum_253']
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['divide_254', 'strided_slice_reshape_transpose_welder_matmul_255']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_welder_matmul_255']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['divide_254', 'strided_slice_reshape_transpose_welder_matmul_255', 'transpose_reshape_reshape_nn_matmul_256']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['transpose_reshape_reshape_nn_matmul_256']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Fusion group created: 108 ['divide_254', 'strided_slice_reshape_transpose_welder_matmul_255']
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['transpose_reshape_reshape_nn_matmul_256', 'reshape_add_add_257']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['transpose_reshape_reshape_nn_matmul_256', 'reshape_add_add_257']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_add_add_257']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['transpose_reshape_reshape_nn_matmul_256', 'reshape_add_add_257', 'mean_258', 'subtract_cast_multiply_259']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Fusion group created: 109 ['transpose_reshape_reshape_nn_matmul_256', 'reshape_add_add_257']
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['mean_258', 'subtract_cast_multiply_259']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['mean_258', 'subtract_cast_multiply_259']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['mean_258']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['subtract_cast_multiply_259']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['mean_258']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Fusion group created: 110 ['mean_258']
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['subtract_cast_multiply_259', 'mean_add_sqrt_260', 'divide_cast_multiply_add_261']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['mean_add_sqrt_260']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['divide_cast_multiply_add_261']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['subtract_cast_multiply_259', 'mean_add_sqrt_260', 'divide_cast_multiply_add_261', 'reshape_nn_matmul_262', 'reshape_add_nn_relu_reshape_263', 'nn_matmul_264', 'reshape_add_add_265']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_nn_matmul_262']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_add_nn_relu_reshape_263']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['nn_matmul_264']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_add_add_265']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Fusion group created: 111 ['subtract_cast_multiply_259', 'mean_add_sqrt_260', 'divide_cast_multiply_add_261']
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_nn_matmul_262', 'reshape_add_nn_relu_reshape_263']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_nn_matmul_262', 'reshape_add_nn_relu_reshape_263']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_nn_matmul_262', 'reshape_add_nn_relu_reshape_263', 'nn_matmul_264']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Fusion group created: 112 ['reshape_nn_matmul_262', 'reshape_add_nn_relu_reshape_263']
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['nn_matmul_264', 'reshape_add_add_265']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['nn_matmul_264', 'reshape_add_add_265']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['nn_matmul_264']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Fusion group created: 113 ['nn_matmul_264']
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_add_add_265', 'mean_266', 'subtract_cast_multiply_267']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['mean_266']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['subtract_cast_multiply_267']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_add_add_265', 'mean_266', 'subtract_cast_multiply_267', 'mean_add_sqrt_268', 'divide_cast_multiply_add_269']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['mean_add_sqrt_268']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['divide_cast_multiply_add_269']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Fusion group created: 114 ['reshape_add_add_265', 'mean_266', 'subtract_cast_multiply_267', 'mean_add_sqrt_268', 'divide_cast_multiply_add_269']
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_nn_matmul_270', 'reshape_add_271']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_nn_matmul_270', 'reshape_add_271']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_nn_matmul_270']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_add_271']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_nn_matmul_270', 'reshape_add_271', 'strided_slice_reshape_transpose_272', 'strided_slice_reshape_transpose_welder_matmul_divide_273', 'add_274', 'max_275', 'subtract_exp_276', 'sum_277', 'divide_278', 'strided_slice_reshape_transpose_welder_matmul_279']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Fusion group created: 115 ['reshape_nn_matmul_270', 'reshape_add_271']
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_272', 'strided_slice_reshape_transpose_welder_matmul_divide_273']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_272']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_welder_matmul_divide_273']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_272', 'strided_slice_reshape_transpose_welder_matmul_divide_273', 'add_274']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['add_274']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_272', 'strided_slice_reshape_transpose_welder_matmul_divide_273', 'add_274', 'max_275', 'subtract_exp_276']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['max_275']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['subtract_exp_276']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_272', 'strided_slice_reshape_transpose_welder_matmul_divide_273', 'add_274', 'max_275', 'subtract_exp_276', 'sum_277', 'divide_278']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['sum_277']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['divide_278']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Fusion group created: 116 ['strided_slice_reshape_transpose_272', 'strided_slice_reshape_transpose_welder_matmul_divide_273', 'add_274', 'max_275', 'subtract_exp_276']
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['sum_277', 'divide_278']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['sum_277', 'divide_278']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['sum_277']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Fusion group created: 117 ['sum_277']
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['divide_278', 'strided_slice_reshape_transpose_welder_matmul_279']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['strided_slice_reshape_transpose_welder_matmul_279']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['divide_278', 'strided_slice_reshape_transpose_welder_matmul_279', 'transpose_reshape_reshape_nn_matmul_280']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['transpose_reshape_reshape_nn_matmul_280']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Fusion group created: 118 ['divide_278', 'strided_slice_reshape_transpose_welder_matmul_279']
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['transpose_reshape_reshape_nn_matmul_280', 'reshape_add_add_281']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['transpose_reshape_reshape_nn_matmul_280', 'reshape_add_add_281']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_add_add_281']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['transpose_reshape_reshape_nn_matmul_280', 'reshape_add_add_281', 'mean_282', 'subtract_cast_multiply_283']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Fusion group created: 119 ['transpose_reshape_reshape_nn_matmul_280', 'reshape_add_add_281']
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['mean_282', 'subtract_cast_multiply_283']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['mean_282', 'subtract_cast_multiply_283']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['mean_282']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['subtract_cast_multiply_283']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['mean_282']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Fusion group created: 120 ['mean_282']
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['subtract_cast_multiply_283', 'mean_add_sqrt_284', 'divide_cast_multiply_add_285']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['mean_add_sqrt_284']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['divide_cast_multiply_add_285']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['subtract_cast_multiply_283', 'mean_add_sqrt_284', 'divide_cast_multiply_add_285', 'reshape_nn_matmul_286', 'reshape_add_nn_relu_reshape_287', 'nn_matmul_288', 'reshape_add_add_289']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_nn_matmul_286']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_add_nn_relu_reshape_287']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['nn_matmul_288']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_add_add_289']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Fusion group created: 121 ['subtract_cast_multiply_283', 'mean_add_sqrt_284', 'divide_cast_multiply_add_285']
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_nn_matmul_286', 'reshape_add_nn_relu_reshape_287']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_nn_matmul_286', 'reshape_add_nn_relu_reshape_287']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_nn_matmul_286', 'reshape_add_nn_relu_reshape_287', 'nn_matmul_288']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Fusion group created: 122 ['reshape_nn_matmul_286', 'reshape_add_nn_relu_reshape_287']
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['nn_matmul_288', 'reshape_add_add_289']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['nn_matmul_288', 'reshape_add_add_289']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['nn_matmul_288']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Fusion group created: 123 ['nn_matmul_288']
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_add_add_289', 'mean_290', 'subtract_cast_multiply_291']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['mean_290']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['subtract_cast_multiply_291']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['reshape_add_add_289', 'mean_290', 'subtract_cast_multiply_291', 'mean_add_sqrt_292', 'divide_cast_multiply_add_293']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['mean_add_sqrt_292']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['divide_cast_multiply_add_293']
+2025-06-23 18:37:33 [welder:INFO]: Found in cache
+2025-06-23 18:37:33 [welder:INFO]: Fusion group created: 124 ['reshape_add_add_289', 'mean_290', 'subtract_cast_multiply_291', 'mean_add_sqrt_292', 'divide_cast_multiply_add_293']
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['take_294', 'dotsplitk_295']
+2025-06-23 18:37:33 [welder:INFO]: Tuning ['take_294']
+2025-06-23 18:37:37 [welder:INFO]: result: 0.0020150302443653345
+2025-06-23 18:37:37 [welder:INFO]: Fusion group created: 125 ['take_294']
+2025-06-23 18:37:37 [welder:INFO]: Tuning ['dotsplitk_295', 'sum_add_tanh_296']
+2025-06-23 18:37:39 [welder:INFO]: Tuning ['dotsplitk_295']
+2025-06-23 18:37:44 [welder:INFO]: result: 0.004209777805954218
+2025-06-23 18:37:44 [welder:INFO]: Fusion group created: 126 ['dotsplitk_295']
+2025-06-23 18:37:44 [welder:INFO]: Tuning ['sum_add_tanh_296']
+2025-06-23 18:37:45 [welder:ERROR]: Cannot generate code for sum_add_tanh_296
+2025-06-23 18:37:45 [welder:INFO]: Fusion group created: 127 ['sum_add_tanh_296']

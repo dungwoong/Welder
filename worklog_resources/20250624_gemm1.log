@@ -1,0 +1,21 @@
+[12:25:59] /home/wangke61/Documents/Welder/tvm/src/runtime/threading_backend.cc:343: Warning: more than two frequencies detected! Forced big_count_ to 16
+3
+Output2, 
+sum1, 
+dotsplitk0, 
+2025-06-24 12:25:59 [welder:INFO]: Tuning ['dotsplitk_0', 'sum_1']
+2025-06-24 12:26:05 [welder:INFO]: result: 0.006887999828904867
+2025-06-24 12:26:05 [welder:INFO]: Tuning ['dotsplitk_0']
+2025-06-24 12:26:27 [welder:INFO]: result: 0.004352000076323748
+2025-06-24 12:26:27 [welder:INFO]: Tuning ['sum_1']
+2025-06-24 12:26:33 [welder:INFO]: result: 0.002018559956923127
+2025-06-24 12:26:33 [welder:INFO]: Tuning ['dotsplitk_0']
+2025-06-24 12:26:33 [welder:INFO]: Found in cache
+2025-06-24 12:26:33 [welder:INFO]: Fusion group created: 0 ['dotsplitk_0']
+2025-06-24 12:26:33 [welder:INFO]: Tuning ['sum_1']
+2025-06-24 12:26:33 [welder:INFO]: Found in cache
+2025-06-24 12:26:33 [welder:INFO]: Fusion group created: 1 ['sum_1']
+nvcc warning : Support for offline compilation for architectures prior to '<compute/sm/lto>_75' will be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+Execution time summary:
+ mean (ms)   median (ms)    max (ms)     min (ms)     std (ms)  
+   0.0062       0.0062       0.0062       0.0062       0.0000 

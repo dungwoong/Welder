@@ -9,4 +9,7 @@
 
 ### Torch2onnx on random model like gemm or attention
 - edit `testing/model/pytorch/__init__.py` and add anything we need
+
 ### Run welder on it
+- python3 ./testing/relay_test.py workdir and it'll run on your onnx model
+- different than what victor had, there was na artifacts folder and stuff and idk how that works

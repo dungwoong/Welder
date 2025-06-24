@@ -1,0 +1,12 @@
+[14:22:32] /home/wangke61/Documents/Welder/tvm/src/runtime/threading_backend.cc:343: Warning: more than two frequencies detected! Forced big_count_ to 16
+2
+Output1, 
+nn.matmul0, 
+matmul is not optimized for this platform.
+2025-06-24 14:22:32 [welder:INFO]: Tuning ['nn_matmul_0']
+2025-06-24 14:22:41 [welder:INFO]: result: 0.0230880007147789
+2025-06-24 14:22:41 [welder:INFO]: Fusion group created: 0 ['nn_matmul_0']
+nvcc warning : Support for offline compilation for architectures prior to '<compute/sm/lto>_75' will be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+Execution time summary:
+ mean (ms)   median (ms)    max (ms)     min (ms)     std (ms)  
+   0.0226       0.0226       0.0226       0.0225       0.0000
