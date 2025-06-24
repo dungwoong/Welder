@@ -1,0 +1,44 @@
+10
+Output12, 
+welder.matmul11, 
+divide10, 
+sum9, 
+exp8, subtract7, 
+max6, 
+subtract5, 
+max4, 
+divide3, Constant2, welder.matmul1, 
+transpose0, 
+2025-06-24 18:32:17 [welder:INFO]: Tuning ['transpose_0', 'welder_matmul_divide_1']
+2025-06-24 18:32:24 [welder:INFO]: result: 0.11261381953954697
+2025-06-24 18:32:24 [welder:INFO]: Tuning ['transpose_0']
+2025-06-24 18:32:27 [welder:INFO]: result: 0.10317672044038773
+2025-06-24 18:32:27 [welder:INFO]: Tuning ['welder_matmul_divide_1']
+2025-06-24 18:32:32 [welder:INFO]: result: 0.11260553449392319
+2025-06-24 18:32:32 [welder:INFO]: Tuning ['transpose_0', 'welder_matmul_divide_1', 'max_2', 'subtract_3']
+2025-06-24 18:32:44 [welder:INFO]: result: 0.1130400002002716
+2025-06-24 18:32:44 [welder:INFO]: Tuning ['max_2']
+2025-06-24 18:33:03 [welder:INFO]: result: 0.0062217144295573235
+2025-06-24 18:33:03 [welder:INFO]: Tuning ['subtract_3']
+2025-06-24 18:33:07 [welder:INFO]: result: 0.010257454589009285
+2025-06-24 18:33:07 [welder:INFO]: Tuning ['transpose_0', 'welder_matmul_divide_1', 'max_2', 'subtract_3', 'max_4', 'subtract_exp_5']
+2025-06-24 18:33:20 [welder:INFO]: result: 0.11337599903345108
+2025-06-24 18:33:20 [welder:INFO]: Tuning ['max_4']
+2025-06-24 18:33:20 [welder:INFO]: Found in cache
+2025-06-24 18:33:20 [welder:INFO]: Tuning ['subtract_exp_5']
+2025-06-24 18:33:24 [welder:INFO]: result: 0.008705882355570793
+2025-06-24 18:33:24 [welder:INFO]: Tuning ['transpose_0', 'welder_matmul_divide_1', 'max_2', 'subtract_3', 'max_4', 'subtract_exp_5', 'sum_6', 'divide_7']
+2025-06-24 18:33:37 [welder:INFO]: result: 0.11432533711194992
+2025-06-24 18:33:37 [welder:INFO]: Tuning ['sum_6']
+2025-06-24 18:33:56 [welder:INFO]: result: 0.006231272593140602
+2025-06-24 18:33:56 [welder:INFO]: Tuning ['divide_7']
+2025-06-24 18:34:00 [welder:INFO]: result: 0.012406857684254646
+2025-06-24 18:34:00 [welder:INFO]: Tuning ['transpose_0', 'welder_matmul_divide_1', 'max_2', 'subtract_3', 'max_4', 'subtract_exp_5', 'sum_6', 'divide_7', 'welder_matmul_8']
+2025-06-24 18:34:14 [welder:INFO]: result: 0.2147359997034073
+2025-06-24 18:34:14 [welder:INFO]: Tuning ['welder_matmul_8']
+2025-06-24 18:34:18 [welder:INFO]: result: 0.10894506424665451
+2025-06-24 18:34:18 [welder:INFO]: Fusion group created: 0 ['transpose_0', 'welder_matmul_divide_1', 'max_2', 'subtract_3', 'max_4', 'subtract_exp_5', 'sum_6', 'divide_7', 'welder_matmul_8']
+nvcc warning : Support for offline compilation for architectures prior to '<compute/sm/lto>_75' will be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+Execution time summary:
+ mean (ms)   median (ms)    max (ms)     min (ms)     std (ms)  
+   0.2184       0.2184       0.2185       0.2182       0.0001 

@@ -24,6 +24,7 @@ def perf_welder(prefix):
         rt_mod = graph_executor.GraphModule(lib["default"](tvm.cuda(0)))
     shape_dict, dtype_dict = rt_mod.get_input_info()
     for name in shape_dict:
+        print(f'{name}: {shape_dict[name]}')
         rt_mod.set_input(name, get_rand_tensor(shape_dict[name], dtype_dict[name]))
     rt_mod.run()
     print(rt_mod.benchmark(tvm.cuda(0), min_repeat_ms=500, end_to_end=False))

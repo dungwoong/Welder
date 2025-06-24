@@ -16,26 +16,23 @@ class SelfAttentionVanilla(nn.Module):
     def __init__(self):
         super(SelfAttentionVanilla, self).__init__()
     
-    # q k v are BNHD
+    # q k v are BHND. do not add transposes to the computation graph, they will mess up the fusion
     def forward(self, q, k, v):
-        b, n, h, d = q.shape
+        b, n, h, d = tuple(q.shape)
         # want them to be BHND
-        q = q.transpose(1, 2)
-        k = k.transpose(1, 2)
-        v = v.transpose(1, 2)
         p_unnormalized = q @ k.transpose(-2, -1) # B H N N
         p_unnormalized = p_unnormalized / math.sqrt(d)
         p_unnormalized = p_unnormalized - torch.max(p_unnormalized, axis=3, keepdim=True)[0]
         attention_weights = nn.functional.softmax(p_unnormalized, dim=3) # softmax over last dim
         o = attention_weights @ v # B H N D
-        return o.transpose(1, 2) # B N H D
+        return o
     
 def test_self_attn_vanilla():
-    b, n, h, d = (4, 6, 2, 64)
-    q = torch.randn((b, n, h, d))
+    b, h, n, d = (4, 6, 2, 64)
+    q = torch.randn((b, h, n, d))
     k = torch.randn_like(q)
     v = torch.randn_like(k)
-    o_ref = nn.functional.scaled_dot_product_attention(q.transpose(1, 2), k.transpose(1, 2), v.transpose(1, 2), is_causal=False).transpose(1, 2)
+    o_ref = nn.functional.scaled_dot_product_attention(q, k, v, is_causal=False)
     o = SelfAttentionVanilla()(q, k, v)
     print('o    =', o[0, 0, 0, :8], '...')
     print('o_ref=', o_ref[0, 0, 0, :8], '...')

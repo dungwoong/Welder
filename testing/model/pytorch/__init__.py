@@ -151,3 +151,15 @@ def gemm(batch_size):
     input = torch.randn(batch_size, input_dim)
     return model, (input, )
 
+def selfattn(batch_size):
+    from .kevin import SelfAttentionVanilla
+    attn_b = batch_size
+    attn_h = 16
+    attn_n = 1024
+    attn_d = 64
+    model = SelfAttentionVanilla()
+    q = torch.randn((attn_b, attn_n, attn_h, attn_d))
+    k = torch.randn_like(q)
+    v = torch.randn_like(k)
+    return model, (q, k, v)
+

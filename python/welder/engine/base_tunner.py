@@ -44,6 +44,13 @@ def subgraph_hash(output_nodes):
     return graph_sig
 
 def _extract_subgraph(nodes, connections=[]):
+    """
+    Extracts subgraph containing nodes, that's all we know for now
+
+    it gets the graph, and then the input/output descriptors. I think the output node is used for propagation
+
+    sample output: output_nodes=[<Node, Output >] input_desc=[['nn_matmul_0', 0], ['nn_matmul_0', 1]] output_desc=[['nn_matmul_0', 0]]
+    """
     node_map = {}
     output_nodes = []
     for node in nodes:
@@ -89,6 +96,9 @@ def _extract_subgraph(nodes, connections=[]):
     return output_nodes, input_desc, output_desc
 
 def eliminate_memcpy(output_nodes):
+    """
+    I think this just eliminates any memcpy nodes in the subgraph and just passes outputs to inputs directly
+    """
     nodes = find_topo_sort(output_nodes)
     eliminated_node_cnt = 0
     for node in nodes:
@@ -234,7 +244,7 @@ class Tunner(object):
             return result
 
         policy_list = self.get_policy_list()
-        configs = self.generate_configs(policy_list, output_nodes)
+        configs = self.generate_configs(policy_list, output_nodes) # just emit from our configs
         if len(configs) == 0:
             self.set_cache(signature, None)
             return None

@@ -22,7 +22,8 @@ python3 ./testing/test_welder_perf.py workdir
 
 ### Adding Attn Graph
 - Added in `model/pytorch/kevin.py` and tested against torch
-- TODO run it through welder, probably add different graph impl
+- Ran it through welder, it claims 315 TFLOPs but it's half precision, so I should go see what I can do there.
+- Tomorrow I should look at intermediate rep and figure out what's going on.
 
 ### Exposing intermediate representations
-- uhh ok
+- I have a writeup in notes.md about how I did it with GEMM. I'll try FlashAttention after.

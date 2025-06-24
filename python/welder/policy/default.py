@@ -32,6 +32,24 @@ class DefaultPolicy:
                 self.output_nodes.append(node)
 
     def emit_config(self, topk: int) -> List[Dict[Node, Config]]:
+        """
+        Emits a config for each node, so it's a dict like {node: {config of tile sizes}}
+
+        At each assignment, it has a scoring system so we can figure that out btw
+
+        This is just for a singular node: {'block': [128, 128], 'warp': [64, 64], 'wmma': [16, 8, 16], 'use_cutlass': True, 'rstep': [32], 'use_tc': '86', 'strides': {2: <Stride, 0, 136>}}
+        - reduction step is how much we're gonna reduce over per loop(eg. for gemm, rstep 32 means k_tile is 32)
+
+        A single smem_tile_condidate looks like this:
+        - rstep_map = {node: {'k': 32}}
+        - smem_cost (32768), output_tile[128, 128]
+        - traffic: 2129920.0
+        - grid_size: 1024
+        - num_wave: 8
+        - use_cutlass_mma: {node: True}]
+
+        Wait so maybe they ARE actually just planning out SMEM tiles right now
+        """
         try:
             base_tile = self.get_base_tile()
         except Exception:
@@ -49,7 +67,8 @@ class DefaultPolicy:
                 continue
             self._expand_reduce_axis(td)
             rasterization = self.plan_rasterization(td)
-            for codegen_dicts in self.assign_block_size(td):
+            # THIS is where they plan the warp memory level now
+            for codegen_dicts in self.assign_block_size(td): # generating yielding dicts like {block:... warp:..., rstep: [...]}
                 # handle cases where block is not ordinal (e.g. transpose)
                 for node, block_order in block_orders.items():
                     codegen_dicts[node].block_order = block_order
@@ -59,7 +78,7 @@ class DefaultPolicy:
                 results.append(codegen_dicts)
                 if len(results) >= topk:break
             if len(results) >= topk:break
-        return results
+        return results # 20 results, each is a codegen dict.
 
     def DFS_smem_tile(self, init_tile, topk, rstep_map) -> Iterable[TileDict]:
         _steps = [get_all_factors(n) for n in self.output_nodes[0].get_space_dim()]

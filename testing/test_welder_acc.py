@@ -71,7 +71,10 @@ if __name__ == "__main__":
     outputs = get_welder_outs(prefix, inputs)
 
     max_diff = get_max_diff(outputs, outputs_ref)
-    print(outputs)
-    print(outputs_ref)
+    print(type(outputs))
+    outputs = np.array(outputs).flatten()
+    outputs_ref = np.array(outputs_ref).flatten()
+    print(outputs[:8])
+    print(outputs_ref[:8])
     print("Output diff : ", max_diff)
 
