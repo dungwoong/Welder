@@ -68,7 +68,7 @@ class DefaultPolicy:
             self._expand_reduce_axis(td)
             rasterization = self.plan_rasterization(td)
             # THIS is where they plan the warp memory level now
-            for codegen_dicts in self.assign_block_size(td): # generating yielding dicts like {block:... warp:..., rstep: [...]}
+            for codegen_dicts in self.assign_block_size(td): # generating yielding dicts like {block:... warp:..., rstep: [...]}. THIS IS WHERE they plan warp tiling
                 # handle cases where block is not ordinal (e.g. transpose)
                 for node, block_order in block_orders.items():
                     codegen_dicts[node].block_order = block_order

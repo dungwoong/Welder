@@ -246,6 +246,7 @@ class Tunner(object):
         policy_list = self.get_policy_list()
         configs = self.generate_configs(policy_list, output_nodes) # just emit from our configs
         if len(configs) == 0:
+            logger.info('No configs generated') # kevin
             self.set_cache(signature, None)
             return None
         compile_results = self.generate_code(output_nodes, configs, kernel_name)
@@ -253,5 +254,13 @@ class Tunner(object):
             cpresult.set_io_desc(input_desc, output_desc)
         compile_parallel(compile_results, self.arch, timeout=30)
         best = self.select_best(output_nodes, compile_results)
+        
+        # Kevin - Add thing to print best config
+        if best is None:
+            logger.info(f'No best config found, {len(configs)=}, {len(compile_results)=}')
+        else:
+            idx = compile_results.index(best)
+            logger.info(str(configs[idx]))
+
         self.set_cache(signature, best)
         return best

@@ -1,44 +1,67 @@
-10
-Output12, 
-welder.matmul11, 
-divide10, 
-sum9, 
-exp8, subtract7, 
-max6, 
-subtract5, 
+8
+Output10, 
+welder.matmul9, 
+divide8, 
+sum7, 
+exp6, subtract5, 
 max4, 
 divide3, Constant2, welder.matmul1, 
 transpose0, 
-2025-06-24 18:32:17 [welder:INFO]: Tuning ['transpose_0', 'welder_matmul_divide_1']
-2025-06-24 18:32:24 [welder:INFO]: result: 0.11261381953954697
-2025-06-24 18:32:24 [welder:INFO]: Tuning ['transpose_0']
-2025-06-24 18:32:27 [welder:INFO]: result: 0.10317672044038773
-2025-06-24 18:32:27 [welder:INFO]: Tuning ['welder_matmul_divide_1']
-2025-06-24 18:32:32 [welder:INFO]: result: 0.11260553449392319
-2025-06-24 18:32:32 [welder:INFO]: Tuning ['transpose_0', 'welder_matmul_divide_1', 'max_2', 'subtract_3']
-2025-06-24 18:32:44 [welder:INFO]: result: 0.1130400002002716
-2025-06-24 18:32:44 [welder:INFO]: Tuning ['max_2']
-2025-06-24 18:33:03 [welder:INFO]: result: 0.0062217144295573235
-2025-06-24 18:33:03 [welder:INFO]: Tuning ['subtract_3']
-2025-06-24 18:33:07 [welder:INFO]: result: 0.010257454589009285
-2025-06-24 18:33:07 [welder:INFO]: Tuning ['transpose_0', 'welder_matmul_divide_1', 'max_2', 'subtract_3', 'max_4', 'subtract_exp_5']
-2025-06-24 18:33:20 [welder:INFO]: result: 0.11337599903345108
-2025-06-24 18:33:20 [welder:INFO]: Tuning ['max_4']
-2025-06-24 18:33:20 [welder:INFO]: Found in cache
-2025-06-24 18:33:20 [welder:INFO]: Tuning ['subtract_exp_5']
-2025-06-24 18:33:24 [welder:INFO]: result: 0.008705882355570793
-2025-06-24 18:33:24 [welder:INFO]: Tuning ['transpose_0', 'welder_matmul_divide_1', 'max_2', 'subtract_3', 'max_4', 'subtract_exp_5', 'sum_6', 'divide_7']
-2025-06-24 18:33:37 [welder:INFO]: result: 0.11432533711194992
-2025-06-24 18:33:37 [welder:INFO]: Tuning ['sum_6']
-2025-06-24 18:33:56 [welder:INFO]: result: 0.006231272593140602
-2025-06-24 18:33:56 [welder:INFO]: Tuning ['divide_7']
-2025-06-24 18:34:00 [welder:INFO]: result: 0.012406857684254646
-2025-06-24 18:34:00 [welder:INFO]: Tuning ['transpose_0', 'welder_matmul_divide_1', 'max_2', 'subtract_3', 'max_4', 'subtract_exp_5', 'sum_6', 'divide_7', 'welder_matmul_8']
-2025-06-24 18:34:14 [welder:INFO]: result: 0.2147359997034073
-2025-06-24 18:34:14 [welder:INFO]: Tuning ['welder_matmul_8']
-2025-06-24 18:34:18 [welder:INFO]: result: 0.10894506424665451
-2025-06-24 18:34:18 [welder:INFO]: Fusion group created: 0 ['transpose_0', 'welder_matmul_divide_1', 'max_2', 'subtract_3', 'max_4', 'subtract_exp_5', 'sum_6', 'divide_7', 'welder_matmul_8']
+2025-06-25 13:33:24 [welder:INFO]: Tuning ['transpose_0', 'welder_matmul_divide_1']
+2025-06-25 13:33:24 [welder:INFO]: No configs generated
+2025-06-25 13:33:24 [welder:INFO]: Tuning ['transpose_0']
+2025-06-25 13:33:33 [welder:INFO]: result: 0.11453570425510406
+2025-06-25 13:33:33 [welder:INFO]: {'globals': {'Rasterization': <NoRasterization>}, <Node, transpose_0>: {'block': [2, 1, 64, 64], 'thread': [2, 1, 8, 8], 'rstep': [], 'step': [1, 1, 1, 2]}}
+2025-06-25 13:33:33 [welder:INFO]: Fusion group created: 0 ['transpose_0']
+2025-06-25 13:33:33 [welder:INFO]: Tuning ['welder_matmul_divide_1', 'max_2', 'subtract_exp_3']
+2025-06-25 13:33:33 [welder:INFO]: No configs generated
+2025-06-25 13:33:33 [welder:INFO]: Tuning ['welder_matmul_divide_1']
+2025-06-25 13:33:39 [welder:INFO]: result: 1.078148365020752
+2025-06-25 13:33:39 [welder:INFO]: {'globals': {'Rasterization': <NoRasterization>}, <Node, welder_matmul_divide_1>: {'block': [1, 2, 64, 128], 'warp': [1, 2, 32, 64], 'wmma': [8, 32, 16], 'use_cutlass': False, 'rstep': [32], 'use_tc': '86', 'strides': {2: <Stride, 2, 136>}}}
+2025-06-25 13:33:39 [welder:INFO]: Fusion group created: 1 ['welder_matmul_divide_1']
+2025-06-25 13:33:39 [welder:INFO]: Tuning ['max_2', 'subtract_exp_3']
+2025-06-25 13:33:58 [welder:INFO]: result: 2.7120676040649414
+2025-06-25 13:33:58 [welder:INFO]: {'globals': {'Rasterization': <NoRasterization>}, <Node, max_2>: {'block': [1, 1, 1, 1], 'thread': [1, 1, 1, 1], 'rstep': [1024], 'reduce_thread': [128], 'vectorize': {'p0': 8}}, <Node, subtract_exp_3>: {'block': [1, 1, 1, 1024], 'thread': [1, 1, 1, 128], 'rstep': [], 'step': [1, 1, 1, 2]}}
+2025-06-25 13:33:58 [welder:INFO]: Tuning ['max_2', 'subtract_exp_3']
+2025-06-25 13:33:58 [welder:INFO]: No best config found, len(configs)=20
+2025-06-25 13:33:58 [welder:INFO]: Tuning ['max_2']
+2025-06-25 13:34:25 [welder:INFO]: result: 0.8426324725151062
+2025-06-25 13:34:25 [welder:INFO]: {'globals': {'Rasterization': <NoRasterization>}, <Node, max_2>: {'block': [1, 2, 2, 1], 'thread': [1, 2, 2, 1], 'rstep': [1024], 'reduce_thread': [32], 'vectorize': {'p0': 8}}}
+2025-06-25 13:34:25 [welder:INFO]: Tuning ['subtract_exp_3']
+2025-06-25 13:34:31 [welder:INFO]: result: 1.8854293823242188
+2025-06-25 13:34:31 [welder:INFO]: {'globals': {'Rasterization': <NoRasterization>}, <Node, subtract_exp_3>: {'block': [1, 1, 16, 512], 'thread': [1, 1, 16, 8], 'rstep': [], 'step': [1, 1, 1, 2]}}
+2025-06-25 13:34:31 [welder:INFO]: Tuning ['max_2', 'subtract_exp_3', 'sum_4', 'divide_5']
+2025-06-25 13:34:52 [welder:INFO]: result: 2.7053706645965576
+2025-06-25 13:34:52 [welder:INFO]: {'globals': {'Rasterization': <NoRasterization>}, <Node, max_2>: {'block': [1, 1, 1, 1], 'thread': [1, 1, 1, 1], 'rstep': [1024], 'reduce_thread': [128], 'vectorize': {'p0': 8}}, <Node, subtract_exp_3>: {'block': [1, 1, 1, 1024], 'thread': [1, 1, 1, 128], 'rstep': [], 'step': [1, 1, 1, 2]}, <Node, sum_4>: {'block': [1, 1, 1, 1], 'thread': [1, 1, 1, 1], 'rstep': [1024], 'reduce_thread': [128], 'vectorize': {'p0': 8}}, <Node, divide_5>: {'block': [1, 1, 1, 1024], 'thread': [1, 1, 1, 128], 'rstep': [], 'step': [1, 1, 1, 2]}}
+2025-06-25 13:34:52 [welder:INFO]: Tuning ['sum_4']
+2025-06-25 13:35:18 [welder:INFO]: result: 0.8426976203918457
+2025-06-25 13:35:18 [welder:INFO]: {'globals': {'Rasterization': <NoRasterization>}, <Node, sum_4>: {'block': [1, 1, 4, 1], 'thread': [1, 1, 4, 1], 'rstep': [1024], 'reduce_thread': [32], 'vectorize': {'p0': 8}}}
+2025-06-25 13:35:18 [welder:INFO]: Tuning ['divide_5']
+2025-06-25 13:35:24 [welder:INFO]: result: 1.8940720558166504
+2025-06-25 13:35:24 [welder:INFO]: {'globals': {'Rasterization': <NoRasterization>}, <Node, divide_5>: {'block': [1, 1, 16, 512], 'thread': [1, 1, 16, 8], 'rstep': [], 'step': [1, 1, 1, 2]}}
+2025-06-25 13:35:24 [welder:INFO]: Tuning ['max_2', 'subtract_exp_3', 'sum_4', 'divide_5', 'welder_matmul_6']
+2025-06-25 13:35:49 [welder:INFO]: result: 10.423279762268066
+2025-06-25 13:35:49 [welder:INFO]: {'globals': {'Rasterization': <NoRasterization>}, <Node, max_2>: {'block': [1, 1, 4, 1], 'thread': [1, 1, 4, 1], 'rstep': [1024], 'reduce_thread': [32], 'vectorize': {'p0': 8}}, <Node, subtract_exp_3>: {'block': [1, 1, 4, 1024], 'thread': [1, 1, 4, 32], 'rstep': [], 'step': [1, 1, 1, 2]}, <Node, sum_4>: {'block': [1, 1, 4, 1], 'thread': [1, 1, 4, 1], 'rstep': [1024], 'reduce_thread': [32], 'vectorize': {'p0': 8}}, <Node, divide_5>: {'block': [1, 1, 4, 1024], 'thread': [1, 1, 4, 32], 'rstep': [], 'step': [1, 1, 1, 2]}, <Node, welder_matmul_6>: {'block': [1, 1, 4, 64], 'thread': [1, 1, 4, 32], 'rstep': [128], 'step': [1, 1, 1, 2], 'vectorize': {'p0': 4, 'p1': 8}}}
+2025-06-25 13:35:49 [welder:INFO]: Tuning ['welder_matmul_6']
+2025-06-25 13:35:55 [welder:INFO]: result: 0.9514880180358887
+2025-06-25 13:35:55 [welder:INFO]: {'globals': {'Rasterization': <NoRasterization>}, <Node, welder_matmul_6>: {'block': [1, 1, 32, 64], 'warp': [1, 1, 16, 32], 'wmma': [16, 8, 16], 'use_cutlass': True, 'rstep': [32], 'use_tc': '86', 'strides': {2: <Stride, 2, 72>}}}
+2025-06-25 13:35:55 [welder:INFO]: Fusion group created: 2 ['max_2', 'subtract_exp_3', 'sum_4', 'divide_5']
+2025-06-25 13:35:55 [welder:INFO]: Tuning ['welder_matmul_6']
+2025-06-25 13:35:55 [welder:INFO]: Found in cache
+2025-06-25 13:35:55 [welder:INFO]: Fusion group created: 3 ['welder_matmul_6']
 nvcc warning : Support for offline compilation for architectures prior to '<compute/sm/lto>_75' will be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
 Execution time summary:
  mean (ms)   median (ms)    max (ms)     min (ms)     std (ms)  
-   0.2184       0.2184       0.2185       0.2182       0.0001 
+   4.0185       4.0189       4.0191       4.0171       0.0008
+
+
+wangke61@mmehride41:~/Documents/Welder$ python3 ./testing/kevin_test_perf.py workdir
+Running 1 times
+0.0043451786041259766
+Average time: 4.345 ms
+GFLOPs: 16062.22
+Correctness checking...
+[-0.05066   0.0616   -0.0401    0.03955  -0.0811   -0.02176  -0.05527
+  0.012054]
+[-0.05057  0.06168 -0.04004  0.03946 -0.0811  -0.0218  -0.05524  0.01206]
+Output diff :  0.0021972656

@@ -1,3 +1,7 @@
+# 2025/06/25
+- Look at attention config
+- next steps are to try feeding in a different attn config(try eg. switching the stuff around, and then removing numerical stability entirely) to see if welder picks up
+
 # 2025/06/24
 ```bash
 python3 ./testing/torch2onnx.py gemm --bs 4096 --fp16 --prefix workdir

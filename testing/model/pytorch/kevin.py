@@ -18,12 +18,11 @@ class SelfAttentionVanilla(nn.Module):
     
     # q k v are BHND. do not add transposes to the computation graph, they will mess up the fusion
     def forward(self, q, k, v):
-        b, n, h, d = tuple(q.shape)
-        # want them to be BHND
+        d = tuple(q.shape)[-1]
         p_unnormalized = q @ k.transpose(-2, -1) # B H N N
         p_unnormalized = p_unnormalized / math.sqrt(d)
-        p_unnormalized = p_unnormalized - torch.max(p_unnormalized, axis=3, keepdim=True)[0]
-        attention_weights = nn.functional.softmax(p_unnormalized, dim=3) # softmax over last dim
+        # p_unnormalized = p_unnormalized - torch.max(p_unnormalized, axis=3, keepdim=True)[0] # max_2 and subtract_3
+        attention_weights = nn.functional.softmax(p_unnormalized, dim=3) # max_4, subtract_exp_5
         o = attention_weights @ v # B H N D
         return o
     

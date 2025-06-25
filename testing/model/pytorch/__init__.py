@@ -158,7 +158,7 @@ def selfattn(batch_size):
     attn_n = 1024
     attn_d = 64
     model = SelfAttentionVanilla()
-    q = torch.randn((attn_b, attn_n, attn_h, attn_d))
+    q = torch.randn((attn_b, attn_h, attn_n, attn_d))
     k = torch.randn_like(q)
     v = torch.randn_like(k)
     return model, (q, k, v)
