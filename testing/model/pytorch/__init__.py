@@ -163,3 +163,15 @@ def selfattn(batch_size):
     v = torch.randn_like(k)
     return model, (q, k, v)
 
+def selfattneasy(batch_size):
+    from .kevin import SelfAttentionEasy
+    attn_b = batch_size
+    attn_h = 16
+    attn_n = 1024
+    attn_d = 64
+    model = SelfAttentionEasy()
+    q = torch.randn((attn_b, attn_h, attn_n, attn_d))
+    k = torch.randn_like(q)
+    v = torch.randn_like(k)
+    return model, (q, k, v)
+

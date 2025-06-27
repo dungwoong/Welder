@@ -1,3 +1,6 @@
+# 2025/06/26
+- So for "easy attention" which is just a super easy version of attention where I changed the computation graph to be suitable for FlashAttention, welder still doesn't pick it up.
+
 # 2025/06/25
 - Look at attention config
 - next steps are to try feeding in a different attn config(try eg. switching the stuff around, and then removing numerical stability entirely) to see if welder picks up

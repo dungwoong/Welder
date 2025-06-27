@@ -1,0 +1,36 @@
+6
+Output8, 
+divide7, 
+sum6, 
+welder.matmul5, 
+divide3, exp4, Constant2, welder.matmul1, 
+transpose0, 
+2025-06-26 10:56:43 [welder:INFO]: Tuning ['transpose_0', 'welder_matmul_divide_exp_1']
+2025-06-26 10:56:43 [welder:INFO]: No configs generated
+2025-06-26 10:56:43 [welder:INFO]: Tuning ['transpose_0']
+2025-06-26 10:56:51 [welder:INFO]: result: 0.11470804363489151
+2025-06-26 10:56:51 [welder:INFO]: {'globals': {'Rasterization': <NoRasterization>}, <Node, transpose_0>: {'block': [2, 1, 64, 64], 'thread': [2, 1, 8, 8], 'rstep': [], 'step': [1, 1, 1, 2]}}
+2025-06-26 10:56:51 [welder:INFO]: Fusion group created: 0 ['transpose_0']
+2025-06-26 10:56:51 [welder:INFO]: Tuning ['welder_matmul_divide_exp_1', 'welder_matmul_2', 'sum_3']
+2025-06-26 10:56:51 [welder:INFO]: No configs generated
+2025-06-26 10:56:51 [welder:INFO]: Tuning ['welder_matmul_divide_exp_1']
+2025-06-26 10:56:57 [welder:INFO]: result: 1.064695954322815
+2025-06-26 10:56:57 [welder:INFO]: {'globals': {'Rasterization': <NoRasterization>}, <Node, welder_matmul_divide_exp_1>: {'block': [1, 2, 64, 64], 'warp': [1, 2, 32, 32], 'wmma': [16, 16, 16], 'use_cutlass': False, 'rstep': [32], 'use_tc': '86', 'strides': {2: <Stride, 2, 72>}}}
+2025-06-26 10:56:57 [welder:INFO]: Fusion group created: 1 ['welder_matmul_divide_exp_1']
+2025-06-26 10:56:57 [welder:INFO]: Tuning ['welder_matmul_2', 'sum_3', 'divide_4']
+2025-06-26 10:57:19 [welder:INFO]: result: 1.8263839483261108
+2025-06-26 10:57:19 [welder:INFO]: {'globals': {'Rasterization': <NoRasterization>}, <Node, welder_matmul_2>: {'block': [1, 1, 128, 64], 'warp': [1, 1, 64, 32], 'wmma': [16, 8, 16], 'use_cutlass': True, 'rstep': [32], 'use_tc': '86', 'strides': {2: <Stride, 2, 72>}}, <Node, sum_3>: {'block': [1, 1, 128, 1], 'thread': [1, 1, 128, 1], 'rstep': [64], 'vectorize': {'p0': 8}}, <Node, divide_4>: {'block': [1, 1, 128, 64], 'thread': [1, 1, 16, 8], 'rstep': [], 'step': [1, 1, 1, 2]}}
+2025-06-26 10:57:19 [welder:INFO]: Tuning ['welder_matmul_2']
+2025-06-26 10:57:25 [welder:INFO]: result: 0.9512426853179932
+2025-06-26 10:57:25 [welder:INFO]: {'globals': {'Rasterization': <NoRasterization>}, <Node, welder_matmul_2>: {'block': [1, 1, 32, 64], 'warp': [1, 1, 16, 32], 'wmma': [16, 8, 16], 'use_cutlass': True, 'rstep': [32], 'use_tc': '86', 'strides': {2: <Stride, 2, 72>}}}
+2025-06-26 10:57:25 [welder:INFO]: Tuning ['sum_3']
+2025-06-26 10:57:50 [welder:INFO]: result: 0.8423999547958374
+2025-06-26 10:57:50 [welder:INFO]: {'globals': {'Rasterization': <NoRasterization>}, <Node, sum_3>: {'block': [1, 2, 2, 1], 'thread': [1, 2, 2, 1], 'rstep': [1024], 'reduce_thread': [32], 'vectorize': {'p0': 8}}}
+2025-06-26 10:57:50 [welder:INFO]: Tuning ['divide_4']
+2025-06-26 10:57:55 [welder:INFO]: result: 0.11015340685844421
+2025-06-26 10:57:55 [welder:INFO]: {'globals': {'Rasterization': <NoRasterization>}, <Node, divide_4>: {'block': [1, 1, 16, 64], 'thread': [1, 1, 16, 8], 'rstep': [], 'step': [1, 1, 1, 2]}}
+2025-06-26 10:57:55 [welder:INFO]: Fusion group created: 2 ['welder_matmul_2', 'sum_3', 'divide_4']
+nvcc warning : Support for offline compilation for architectures prior to '<compute/sm/lto>_75' will be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+Execution time summary:
+ mean (ms)   median (ms)    max (ms)     min (ms)     std (ms)  
+   2.2601       2.2601       2.2605       2.2597       0.0003

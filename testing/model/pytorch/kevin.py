@@ -25,6 +25,19 @@ class SelfAttentionVanilla(nn.Module):
         attention_weights = nn.functional.softmax(p_unnormalized, dim=3) # max_4, subtract_exp_5
         o = attention_weights @ v # B H N D
         return o
+
+class SelfAttentionEasy(nn.Module):
+    def __init__(self):
+        super(SelfAttentionEasy, self).__init__()
+    
+    def forward(self, q, k, v):
+        d = tuple(q.shape)[-1]
+        p_unnormalized = q @ k.transpose(-2, -1) # B H N N
+        p_unnormalized = torch.exp(p_unnormalized / math.sqrt(d))
+        attention_weights = p_unnormalized @ v # B H N D
+        l = torch.sum(p_unnormalized, axis=3, keepdim=True)
+        o = attention_weights / l # B H N D
+        return o
     
 def test_self_attn_vanilla():
     b, h, n, d = (4, 6, 2, 64)
@@ -37,9 +50,21 @@ def test_self_attn_vanilla():
     print('o_ref=', o_ref[0, 0, 0, :8], '...')
     assert torch.allclose(o, o_ref, atol=0.0001)
     print('all close!')
+
+def test_self_attn_easy():
+    b, h, n, d = (4, 6, 2, 64)
+    q = torch.randn((b, h, n, d))
+    k = torch.randn_like(q)
+    v = torch.randn_like(k)
+    o_ref = nn.functional.scaled_dot_product_attention(q, k, v, is_causal=False)
+    o = SelfAttentionEasy()(q, k, v)
+    print('o    =', o[0, 0, 0, :8], '...')
+    print('o_ref=', o_ref[0, 0, 0, :8], '...')
+    assert torch.allclose(o, o_ref, atol=0.0001)
+    print('all close!')
     
 if __name__ == '__main__':
-    test_self_attn_vanilla()
+    test_self_attn_easy()
 
 
 

@@ -69,3 +69,39 @@ block size 128, grid size 262144 = (16 * 16 * 1024). This is for the ENTIRE fuse
 
 So overall each block takes a single row of the matrix. That does make sense since it's not like larger tiles give more opportunity for reuse
 
+### Why does Welder fail on "Easy Attention?"
+- Fails to generate configs, look at welder/policy/default.py
+- `[<Node, welder_matmul_divide_exp_1>, <Node, welder_matmul_2>, <Node, sum_3>]` are the node's it tries to fuse first
+- It does generate a base tile [1, 1, 1, 64]
+- `{<Node, welder_matmul_divide_exp_1>: {'k': 32}, <Node, welder_matmul_2>: {'k': 32}, <Node, sum_3>: {'k3': 1}}` is the rstep generated
+- it generates no smem tile candidates from DFS_SMEM_TILE
+
+DFS_SMEM_TILE
+- first start with _steps which is all factors, but narrow down based on min tile size
+- `[[1, 2, 4, 8, 16], [1, 2, 4, 8, 16], [1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024], [64]]` since the min tile size is 64 for the last dim(I wonder how they got that but okok)
+- So, the first tile dict was invalid
+- let's look at compute_tile_dict for that tile(from add_to_queue in DFS_SMEM_TILE)
+- So it initializes a tile dict with output_shape as the tile shape we put in (64 tile)
+- Wait this is literally what FlashAttention has though, except I don't know what that k3 sum reduction dim is and why it's 1
+- tile map: `{<Node, welder_matmul_2>: [1, 1, 1, 64], <Node, sum_3>: [1, 1, 1, 1], <Node, welder_matmul_divide_exp_1>: [1, 1, 1, 1024], <Node, PlaceHolder >: [1, 1, 1024, 64], <Node, PlaceHolder >: [1, 1, 1, 64], <Node, PlaceHolder >: [1, 1, 64, 1024]}`
+    - So first matmul(matmul_divide_exp) it's gonna output a 1x1024 tile???
+    - Then into the matmul 2 we're gonna output a 1x64 tile so 1x1024x1024x64 ahh I see that's not good...
+    - And then the sum we're gonna output a 1x1 tile but reduce down the 1024 dim I'm guessing
+    - **ALSO** the thing that actually returns the tile map is `_compute_memory_traffic()`, I think their propagation logic there is flawed or smth
+    - the placeholders are the outputs(??) I think?? I think the 64x1024 is the size of the P matrix from the first matmul, 1024x64 is size of O matrix after second matmul and 1, 64 is the rowsum???
+
+How does it get the tile map?
+- initial output tile map `{<Node, welder_matmul_2>: [1, 1, 1, 64], <Node, sum_3>: [1, 1, 1, 1]}` these are min tile sizes
+- so when they propagate the sum shape back, it becomes [1, 1, 1, 1024]
+- The matmul_2 expects input shapes `[[1, 1, 1, 1024], [1, 1, 1024, 64]]` like I think they should have a reduction step but idk anymore...
+- so when it's calculating traffic they're literally doing `+= [1024 * 64 * nbytes]` but idk what traffic cost means so...
+- for the first matmul divide exp, they have these input shapes: `[[1, 1, 1, 64], [1, 1, 64, 1024]]`
+- they calculate `smem_cost=66144` so it's too big for smem I think
+- ok YEAH based on `infer_node_smem_usage` it seems like the tile is literally the tile, and rstep_map is rstep_map so they're literally trying to fit like a 1024x64 because they can't splitK on the second matmul since it's preceded by the first matmul
+- so then there's too much smem usage and we're done, no configs generated.
+- I feel like if they had a higher level representation that could be good, but there's so much code to express something that's simple imo. Like they're doing so much optimization from one representation like calculating smem usage etc. Like their propagate and stuff is interleaved inside this entire algorithm so you can't just modify it that easily, it's hard to mess with their graph structure. The code design is hard to extend e.g. if I wanted to add more stuff to the representation.
+
+### Will manually reorganizing the graph lead to good fusion?
+- `[<Node, transpose_0>, <Node, welder_matmul_divide_exp_1>, <Node, sum_3>, <Node, welder_matmul_2>, <Node, divide_4>, <Node, Output >]`
+- Reordered the sum and matmul2, which occur due to branching so you can reorder them in the toposort
+- 
