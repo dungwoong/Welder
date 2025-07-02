@@ -105,7 +105,7 @@ if __name__ == "__main__":
     print(bench)
     median_s = bench.median
 
-    flops = get_gemm_and_reduction_flops()
+    flops = get_self_attn_flops()
     print(f'Median time: {round(1e3 * median_s, 3)} ms')
     print(f'Median GFLOPs: {round((flops / median_s) * 1e-9, 2)}')
 

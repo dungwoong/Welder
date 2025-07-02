@@ -171,8 +171,8 @@ def selfattneasy(batch_size):
     attn_d = 64
     model = SelfAttentionEasy()
     q = torch.randn((attn_b, attn_h, attn_n, attn_d))
-    k = torch.randn_like(q)
-    v = torch.randn_like(k)
+    k = torch.randn_like(q).transpose(-2, -1)
+    v = torch.randn_like(q)
     return model, (q, k, v)
 
 def batchedgemm(batch_size): # batch size is actually the dim, L is always 4(see Cypress work)

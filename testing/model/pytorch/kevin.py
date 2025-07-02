@@ -58,7 +58,7 @@ class SelfAttentionEasy(nn.Module):
     
     def forward(self, q, k, v):
         d = tuple(q.shape)[-1]
-        p_unnormalized = q @ k.transpose(-2, -1) # B H N N
+        p_unnormalized = q @ k # .transpose(-2, -1) # B H N N
         p_unnormalized = torch.exp(p_unnormalized / math.sqrt(d))
         attention_weights = p_unnormalized @ v # B H N D
         l = torch.sum(p_unnormalized, axis=3, keepdim=True)
