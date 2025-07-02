@@ -1,5 +1,6 @@
 import argparse
 import os
+import tvm
 
 import numpy as np
 import onnx
@@ -71,6 +72,22 @@ def get_welder_outs(prefix, inputs):
         outputs.append(out)
     return outputs
 
+def get_self_attn_flops(b=16, n=1024, h=16, d=64):
+    b, n, h, d = 16, 1024, 16, 64
+    return ((2 * b * h * n * n* d) + (4 * b * h * n * n) + (2 * b * h * n * n * d))
+
+def get_gemm_flops(dim=4096):
+    return 2 * dim * dim * dim
+
+def get_batched_gemm_flops(dim=4096, L=4):
+    return L * get_gemm_flops(dim)
+
+def get_dual_gemm_flops(dim=4096):
+    return 2 * get_gemm_flops(dim) + (dim * dim) # for accumulation
+
+def get_gemm_and_reduction_flops(dim=4096):
+    return get_gemm_flops(dim) + (dim * dim)
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("prefix")
@@ -81,18 +98,16 @@ if __name__ == "__main__":
 
     rt_mod = setup_welder(prefix, inputs)
     iters = 1 # I think after 1 run it just caches stuff, or maybe it's a generator or smth
-    print(f'Running {iters} times')
-    start = time.time()
-    for i in range(iters):
-        rt_mod.run()
-    finish = time.time()
-    time_elapsed = finish - start
-    print(time_elapsed)
+    rt_mod.run()
+    
+    bench = rt_mod.benchmark(tvm.cuda(0), min_repeat_ms=500, end_to_end=False)
+    # print(f'{bench.max=}, {bench.median=}, {bench.std=}, {bench.min=}, {bench.max=}')
+    print(bench)
+    median_s = bench.median
 
-    b, n, h, d = 16, 1024, 16, 64
-    flops = iters * ((2 * b * h * n * n* d) + (4 * b * h * n * n) + (2 * b * h * n * n * d)) # flops for attn
-    print(f'Average time: {round(1e3 * time_elapsed / iters, 3)} ms')
-    print(f'GFLOPs: {round((flops / time_elapsed) * 1e-9, 2)}')
+    flops = get_gemm_and_reduction_flops()
+    print(f'Median time: {round(1e3 * median_s, 3)} ms')
+    print(f'Median GFLOPs: {round((flops / median_s) * 1e-9, 2)}')
 
     outputs = []
     for i in range(rt_mod.get_num_outputs()):
@@ -101,9 +116,11 @@ if __name__ == "__main__":
 
     print('Correctness checking...')
     max_diff = get_max_diff(outputs, outputs_ref)
-    outputs = np.array(outputs).flatten()
-    outputs_ref = np.array(outputs_ref).flatten()
-    print(outputs[:8])
-    print(outputs_ref[:8])
-    print("Output diff : ", max_diff)
+
+    # NOTE: problematic since outputs could be a list of tensors or whatever.
+    # outputs = np.array(outputs).flatten()
+    # outputs_ref = np.array(outputs_ref).flatten()
+    # print(outputs[-8:])
+    # print(outputs_ref[-8:])
+    print("Output max diff : ", max_diff)
 

@@ -11,6 +11,32 @@ class GEMM(nn.Module):
     def forward(self, x):
         output = self.model(x)
         return output
+
+# in cypress, they use L=4 independent gemms of m=n=k size
+class BatchedGemm(nn.Module):
+    def __init__(self, dim, L=4):
+        super(BatchedGemm, self).__init__()
+        self.dim = dim
+        self.L = L
+        self.weight = nn.Parameter(torch.randn((L, dim, dim), dtype=torch.float16))
+    
+    def forward(self, x):
+        # x should be L, dim', dim
+        return torch.bmm(x, self.weight)
+    
+class DualGemm(nn.Module):
+    def __init__(self):
+        super(DualGemm, self).__init__()
+    
+    def forward(self, a, b1, b2): # I should just always do this from now on
+        return a @ b1 + a @ b2
+
+class GemmAndReduction(nn.Module): # return C=AB, and rowsum(A)
+    def __init__(self):
+        super(GemmAndReduction, self).__init__()
+    
+    def forward(self, a, b):
+        return a @ b, torch.sum(a, axis=-1)
     
 class SelfAttentionVanilla(nn.Module):
     def __init__(self):
@@ -38,7 +64,12 @@ class SelfAttentionEasy(nn.Module):
         l = torch.sum(p_unnormalized, axis=3, keepdim=True)
         o = attention_weights / l # B H N D
         return o
-    
+
+
+# ---------------------------------------------
+# TESTS
+# ---------------------------------------------
+
 def test_self_attn_vanilla():
     b, h, n, d = (4, 6, 2, 64)
     q = torch.randn((b, h, n, d))

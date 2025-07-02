@@ -175,3 +175,25 @@ def selfattneasy(batch_size):
     v = torch.randn_like(k)
     return model, (q, k, v)
 
+def batchedgemm(batch_size): # batch size is actually the dim, L is always 4(see Cypress work)
+    from .kevin import BatchedGemm
+    L = 4
+    dim = batch_size
+    model = BatchedGemm(dim=dim, L=L) # Lxbatch_sizexbatch_size
+    x = torch.randn((L, dim, dim))
+    return model, (x, )
+
+def dualgemm(batch_size): # batch size is dim
+    from .kevin import DualGemm
+    model = DualGemm()
+    a = torch.randn((batch_size, batch_size), dtype=torch.float16)
+    b1 = torch.randn_like(a)
+    b2 = torch.randn_like(b1)
+    return model, (a, b1, b2)
+
+def gemmandreduction(batch_size):
+    from .kevin import GemmAndReduction
+    model = GemmAndReduction()
+    a = torch.randn((batch_size, batch_size), dtype=torch.float16)
+    b = torch.randn_like(a)
+    return model, (a, b)

@@ -9,3 +9,7 @@ python3 ./testing/relay_test.py workdir
 python3 ./testing/test_welder_perf.py workdir
 python3 ./testing/test_welder_acc.py workdir
 python3 ./testing/kevin_test_perf.py workdir
+
+python3 ./testing/torch2onnx.py batchedgemm --bs 4096 --fp16 --prefix workdir
+python3 ./testing/torch2onnx.py dualgemm --bs 4096 --fp16 --prefix workdir
+python3 ./testing/torch2onnx.py gemmandreduction --bs 4096 --fp16 --prefix workdir
