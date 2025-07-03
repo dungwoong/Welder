@@ -1,3 +1,6 @@
+workdir/trials
+
+
 *.pyc
 *.csv
 *.tar.gz*
