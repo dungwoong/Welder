@@ -3,7 +3,7 @@ import argparse
 import os
 import json
 import sys
-import logging
+import time
 from kevin_test_perf import *
 
 # for each kernel type,
@@ -29,9 +29,12 @@ def run_experiment(label, save_dict):
         # print('Running torch2onnx')
         run_torch2onnx(label, save_dir)
         # print('\nRunning engine')
+        start = time.time()
         run_engine(save_dir)
+        time_elapsed = time.time() - start
         print('\nRunning Benchmarking\n')
         output = run_benchmark(save_dir, label)
+        output['compile_time_s'] = time_elapsed
         save_dict[label] = output
 
 

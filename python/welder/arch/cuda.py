@@ -10,8 +10,8 @@ class cuda:
         self.compute_max_core = device.multi_processor_count
         self.warp_size = device.warp_size
         self.compute_capability = device.compute_version.replace(".", "")
-        if self.compute_capability == "120": # do this for blackwell
-            self.compute_capability = "86"
+        # if self.compute_capability == "120": # do this for blackwell
+        #     self.compute_capability = "86"
         self.reg_cap = 65536
         self.max_smem_usage = 2 * self.smem_cap
         self.sm_partition = 4
@@ -19,7 +19,7 @@ class cuda:
         self.bandwidth = [750, 12080]
         self.target = tvm.target.cuda(arch="sm_" + self.compute_capability)
 
-        if self.compute_capability >= "80":
+        if self.compute_capability >= "80" or self.compute_capability == "120":
             self.cutlass_mma = [16, 8, 16]
         elif self.compute_capability >= "70":
             self.cutlass_mma = [32, 32, 4]
