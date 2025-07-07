@@ -186,7 +186,7 @@ def batchedgemm(batch_size): # batch size is actually the dim, L is always 4(see
 def dualgemm(batch_size): # batch size is dim
     from .kevin import DualGemm
     model = DualGemm()
-    a = torch.randn((batch_size, batch_size), dtype=torch.float16)
+    a = torch.randn((batch_size, batch_size))
     b1 = torch.randn_like(a)
     b2 = torch.randn_like(b1)
     return model, (a, b1, b2)
@@ -194,6 +194,18 @@ def dualgemm(batch_size): # batch size is dim
 def gemmandreduction(batch_size):
     from .kevin import GemmAndReduction
     model = GemmAndReduction()
-    a = torch.randn((batch_size, batch_size), dtype=torch.float16)
+    a = torch.randn((batch_size, batch_size))
     b = torch.randn_like(a)
     return model, (a, b)
+
+def layernormlinear(batch_size):
+    from .kevin import LayerNormLinear
+    model = LayerNormLinear(mnk=batch_size)
+    x = torch.randn((batch_size, batch_size))
+    return model, (x,)
+
+def rmsswiglu(batch_size):
+    from .kevin import RMSFFNSwiGLUEasy
+    model = RMSFFNSwiGLUEasy(mnk=batch_size)
+    x = torch.randn((batch_size, batch_size))
+    return model, (x,)

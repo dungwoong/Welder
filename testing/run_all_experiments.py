@@ -13,7 +13,9 @@ PYTHON_COMMAND = "python3"
 DIR = 'workdir/trials'
 
 # label: (torch2onnx command, flop command)
-experiments = {'gemm': {'torch2onnx': ['gemm', '--bs', '4096', '--fp16'], 'flops': lambda: get_gemm_flops(dim=4096)},
+experiments = {'layernormlinear': {'torch2onnx': ['layernormlinear', '--bs', '4096', '--fp16'], 'flops': lambda: None},
+               'rmsswiglu': {'torch2onnx': ['rmsswiglu', '--bs', '4096', '--fp16'], 'flops': lambda: None},
+               'gemm': {'torch2onnx': ['gemm', '--bs', '4096', '--fp16'], 'flops': lambda: get_gemm_flops(dim=4096)},
                'dualgemm': {'torch2onnx': ['dualgemm', '--bs', '4096', '--fp16'], 'flops': lambda: get_dual_gemm_flops(dim=4096)},
                'batchedgemm': {'torch2onnx': ['batchedgemm', '--bs', '4096', '--fp16'], 'flops': lambda: get_batched_gemm_flops(dim=4096, L=4)},
                'selfattnvanilla': {'torch2onnx': ['selfattn', '--bs', '16', '--fp16'], 'flops': lambda: get_self_attn_flops(16, 1024, 16, 64)},
@@ -70,8 +72,9 @@ def run_benchmark(dir, label):
     median_s = bench.median
 
     flops = experiments[label]['flops']()
+    gflops = flops/median_s * 1e-9 if flops is not None else None
     print(f'Median time: {round(1e3 * median_s, 3)} ms')
-    print(f'Median GFLOPs: {round((flops / median_s) * 1e-9, 2)}')
+    print(f'Median GFLOPs: {gflops}')
 
     outputs = []
     for i in range(rt_mod.get_num_outputs()):
@@ -88,7 +91,7 @@ def run_benchmark(dir, label):
     print(outputs[-8:])
     print(outputs_ref[-8:])
     print("Output max diff : ", max_diff)
-    return {'max_diff': float(max_diff), 'gflops': float(flops/median_s * 1e-9)}
+    return {'max_diff': float(max_diff), 'gflops': float(gflops) if gflops is not None else None, 'med_time_s': median_s}
 
 
 if __name__ == "__main__":
@@ -102,6 +105,7 @@ if __name__ == "__main__":
 
     save_dict = dict()
     for workload in experiments.keys():
+        # for workload in ['rmsswiglu', 'layernormlinear']:
         run_experiment(workload, save_dict)
 
     # print(save_dict)

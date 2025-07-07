@@ -66,6 +66,49 @@ class SelfAttentionEasy(nn.Module):
         return o
 
 
+class LayerNormLinear(nn.Module):
+    def __init__(self, mnk):
+        super(LayerNormLinear, self).__init__()
+        self.ln = nn.LayerNorm(normalized_shape=mnk, bias=True)
+        self.linear = nn.Linear(in_features=mnk, out_features=mnk, bias=False)
+    
+    def forward(self, x):
+        x = self.ln(x)
+        x = self.linear(x)
+        return x
+
+class RMSNorm(nn.Module):
+    def __init__(self, normalized_shape, eps=1e-8):
+        super().__init__()
+        self.eps = eps
+        self.weight = nn.Parameter(torch.ones(normalized_shape))  # learnable scale
+
+    def forward(self, x):
+        # x: (batch, ..., dim)
+        norm = x.norm(dim=-1, keepdim=True) / (x.shape[-1] ** 0.5)
+        x_normed = x / (norm + self.eps)
+        return self.weight * x_normed
+
+class RMSFFNSwiGLUEasy(nn.Module):
+    def __init__(self, mnk):
+        super(RMSFFNSwiGLUEasy, self).__init__()
+        self.rms = RMSNorm(normalized_shape=mnk)
+        self.sig = nn.Sigmoid()
+        self.l1 = nn.Linear(in_features=mnk, out_features=mnk, bias=False) # bias=false --> Easy
+        self.l2 = nn.Linear(in_features=mnk, out_features=mnk, bias=False)
+        self.next_linear = nn.Linear(in_features=mnk, out_features=mnk, bias=False) # bias=False --> easy
+    
+    def swiglu(self, x): # swish should have another parameter to be b * self.sig(param * b)
+        a = self.l1(x)
+        b = self.l2(x)
+        sw = b * self.sig(b)
+        return a * sw
+
+    def forward(self, x):
+        x = self.rms(x)
+        x = self.swiglu(x)
+        return self.next_linear(x)
+
 # ---------------------------------------------
 # TESTS
 # ---------------------------------------------
@@ -93,9 +136,27 @@ def test_self_attn_easy():
     print('o_ref=', o_ref[0, 0, 0, :8], '...')
     assert torch.allclose(o, o_ref, atol=0.0001)
     print('all close!')
+
+def test_rmsnorm_against_torch():
+    torch.manual_seed(0)
+    B, T, D = 2, 3, 4
+    x = torch.randn(B, T, D)
+
+    # Initialize both with the same weights
+    torch_rms = nn.RMSNorm(D, eps=1e-8)
+    my_rms = RMSNorm(D)
+    with torch.no_grad():
+        my_rms.weight.copy_(torch_rms.weight)
+
+    # Compare outputs
+    out_my = my_rms(x)
+    out_torch = torch_rms(x)
+
+    assert torch.allclose(out_my, out_torch, rtol=1e-5, atol=1e-6)
+    print("RMSNorm matches PyTorch's nn.RMSNorm.")
     
 if __name__ == '__main__':
-    test_self_attn_easy()
+    test_rmsnorm_against_torch()
 
 
 

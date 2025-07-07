@@ -1,3 +1,4 @@
+from welder.engine.base_tunner import Tunner
 import tvm
 from tvm import relay, ir
 from welder.graph import IRNode, OutputNode, Node
@@ -27,7 +28,8 @@ class WelderTunePass(relay.ExprMutator):
 
         ordered_nodes = extractor.ordered_nodes
         node_map = extractor.node_map
-        tunner = MultiProcTunner(ordered_nodes, arch=self.arch, device="cuda:0", topk=20)
+        tunner = Tunner(arch=self.arch, device="cuda:0", topk=20) # better for limited memory contexts
+        # tunner = MultiProcTunner(ordered_nodes, arch=self.arch, device="cuda:0", topk=20)
         engine = Engine(tunner)
         # tunner.load_cache("a.pkl")
         fusion_groups = engine.run(ordered_nodes)
