@@ -12,7 +12,8 @@ def tune_node(ordered_nodes, names):
         if node.name in names:
             nodes.append(node)
     from welder.arch import cuda
-    tunner = MultiProcTunner(ordered_nodes, cuda(), device=0, topk=20)
+    # tunner = MultiProcTunner(ordered_nodes, cuda(), device=0, topk=20)
+    tunner = Tunner(cuda(), device="cuda:0", topk=20)
     best = tunner.tune(nodes)
 
 @ir.transform.module_pass(opt_level=0)

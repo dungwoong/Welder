@@ -9,6 +9,10 @@ from tvm.contrib import graph_executor
 from tvm.contrib.debugger.debug_runtime import debug_executor
 import time
 
+sess_options = ort.SessionOptions()
+sess_options.intra_op_num_threads = 1  # onnxruntime may try to pin threads to cpus that aren't available in Compute Canada
+sess_options.inter_op_num_threads = 1
+
 def get_max_diff(tensor_list_a, tensor_list_b):
     assert len(tensor_list_a) > 0
     total_diff = [0]
