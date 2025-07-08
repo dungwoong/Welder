@@ -1,0 +1,2 @@
+- in python/welder/utils.py changed compile command code=compute_... to sm_... This will generate SASS only, no PTX fallback or something so compute canada is better with it. Seems like CC can compile cuda kernels but JIT compilation of PTX makes it output an error.
+- in python/welder/arch/cuda.py, added cc_compile. So for sm120, compute_capability will be 86, but cc_compile will be 120 so we can actually compile. I think since older version of TVM, they want 86 or whatever to work.
