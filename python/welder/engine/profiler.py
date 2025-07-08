@@ -32,6 +32,7 @@ def call_profile(libname, args, device):
         exit()
     close_lib(lib)
     if latency < 0:
+        print(f'Profiling return code {latency}')
         return 1e8
     return latency
 

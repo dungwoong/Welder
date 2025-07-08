@@ -57,16 +57,17 @@ extern "C" float profile({}) {{
     cudaEventRecord(start, 0);
     {};
     if (cudaEventRecord(stop, 0) != cudaSuccess) return -1;
-    if (cudaEventSynchronize(stop) != cudaSuccess) return -1;
-    if (cudaGetLastError() != cudaSuccess) return -1;
+    if (cudaEventSynchronize(stop) != cudaSuccess) return -2;
+    cudaError_t err = cudaGetLastError();
+    if (err != cudaSuccess) {{printf("CudaError: %s", cudaGetErrorString(err)); return -3;}}
     cudaEventElapsedTime(&ms, start, stop);
     int repeats = int(ceil(100.0 / ms));
     cudaEventRecord(start, 0);
     for (int _ = 0; _ < repeats; _++)
         {};
-    if (cudaEventRecord(stop, 0) != cudaSuccess) return -1;
-    if (cudaEventSynchronize(stop) != cudaSuccess) return -1;
-    if (cudaGetLastError() != cudaSuccess) return -1;
+    if (cudaEventRecord(stop, 0) != cudaSuccess) return -4;
+    if (cudaEventSynchronize(stop) != cudaSuccess) return -5;
+    if (cudaGetLastError() != cudaSuccess) return -6;
     cudaEventElapsedTime(&ms, start, stop);
     cudaEventDestroy(start);
     cudaEventDestroy(stop);
@@ -113,10 +114,11 @@ extern "C" int {symbol}({def_args}) {{
             profiling_code = self._create_code_for_profiling()
             src = tempfile.NamedTemporaryFile(mode='w', suffix=".cu")
             lib_name = src.name.replace(".cu", ".so")
-            compute_version = arch.compute_capability
+            # compute_version = arch.compute_capability
+            compute_version = arch.cc_compile
             cutlass_dir = os.path.expanduser("~/cutlass/include")
             command = ["nvcc", "-std=c++17", "-Xcudafe", "--diag_suppress=177", "--compiler-options", "'-fPIC'", "--shared", src.name, "-lcuda",
-                f"-gencode=arch=compute_{compute_version},code=compute_{compute_version}",
+                f"-gencode=arch=compute_{compute_version},code=sm_{compute_version}",
                 f"-I{cutlass_dir}", "-o", lib_name]
         elif arch.platform == "ROCm":
             profiling_code = self._create_rocm_code_for_profiling()

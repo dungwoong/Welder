@@ -12,6 +12,9 @@ class cuda:
         self.compute_capability = device.compute_version.replace(".", "")
         if self.compute_capability == "120": # do this for blackwell
             self.compute_capability = "86"
+            self.cc_compile = "120"
+        else:
+            self.cc_compile = self.compute_capability
         print(f"COMPUTE CAPABILITY IS {self.compute_capability}")
         self.reg_cap = 65536
         self.max_smem_usage = 2 * self.smem_cap
