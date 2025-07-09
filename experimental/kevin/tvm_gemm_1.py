@@ -12,7 +12,7 @@ from welder.tvm_build import unset_tvm_cuda_compile
 unset_tvm_cuda_compile()
 
 """
-Simple gemm where threads each do a for loop to accumulate part of C.
+GOAL: add SMEM caching and have each warp do a 16x16 op(no mma yet)
 """
 
 MNK=4096
@@ -23,7 +23,7 @@ def print_if_y(message, s):
         print(s)
 
 def gemm(n, m, k):
-    """TVM expression for vector add"""
+    """TVM expression for GEMM"""
     A = te.placeholder((n, k), dtype="float16", name='a')
     B = te.placeholder((k, m), dtype="float16", name='b')
     K = te.reduce_axis((0, k))
@@ -31,19 +31,47 @@ def gemm(n, m, k):
     return A, B, C
 
 def schedule(sch: tvm.tir.Schedule):
-    C = sch.get_block("output") # we defined this block in te.compute above
-    block_size_m, block_size_n = 16, 16
-    i, j, k = sch.get_loops(C)
-    i0, i1 = sch.split(i, factors=[None, block_size_m])
-    j0, j1 = sch.split(j, factors=[None, block_size_n])
-    sch.bind(i0, "blockIdx.y")
-    sch.bind(j0, "blockIdx.x")
-    sch.bind(i1, "threadIdx.y")
-    sch.bind(j1, "threadIdx.x")
+    # following the tvm_gemm example
+    C = sch.get_block("output")
 
-    grid = [np.ceil(MNK / block_size_m), np.ceil(MNK / block_size_n), 1]
-    block = [block_size_m, block_size_n, 1]
-    return grid, block
+    # let's do 2x2 wmma's so 32x32 per block, 16x16 per warp
+    block_size_M, block_size_N = 32, 32
+    thread_size_M, thread_size_N = 4, 4
+    chunk_size = 16
+    num_thread = 8 * 8
+
+    # block-level tiling
+    ax_m, ax_n, ax_k = sch.get_loops(C)
+    grid_m, block_m = sch.split(ax_m, factors=[None, block_size_M])
+    grid_n, block_n = sch.split(ax_n, factors=[None, block_size_N])
+    sch.reorder(grid_m, grid_n, block_m, block_n)
+    grid = sch.fuse(grid_m, grid_n)
+    sch.bind(grid, 'blockIdx.x')
+
+    grid, ax_m, ax_n, ax_k = sch.get_loops(C) # re-fetch loops since we fused grid
+    k_outer, k_inner = sch.split(ax_k, factors=[None, chunk_size]) # for k_outer: load a k_inner tile
+    thread_m, inner_m = sch.split(ax_m, factors=[None, thread_size_M]) # same idea, we later use wmma to tensorize our op
+    thread_n, inner_n = sch.split(ax_n, factors=[None, thread_size_N])
+    sch.reorder(thread_m, thread_n, k_outer, k_inner, inner_m, inner_n)
+    threads = sch.fuse(thread_m, thread_n)
+    sch.bind(threads, 'threadIdx.x') # so the warp m and n will be split among threadIdx.y
+
+    for idx in [0, 1]:
+        SS = sch.cache_read(C, idx, "shared") # read to shared
+        sch.compute_at(SS, k_outer) # move producer block UNDER the specific loop
+        # sch.storage_align(SS, 0, axis=-2, factor=32, offset=0) # idk what this is, but we gotta use it. Should work since our size is 4096, but may not be good for other sizes
+        # fused = sch.fuse(*sch.get_loops(SS)[-2:]) # fuse loops
+        
+    #     # this is how we do the strided loading pattern where each thread loads 8 elements at a time to load the tile in
+    #     vec = 8 # load 8 items at a time into smem
+    #     o, tidx, v = sch.split(fused, factors=[None, num_thread, vec])
+    #     sch.bind(tidx, 'threadIdx.x')
+    #     sch.vectorize(v)
+    
+    grid_dim = [MNK/block_size_M * MNK/block_size_N, 1, 1]
+    block_dim = [num_thread, 1, 1]
+    return grid_dim, block_dim
+
 
 args = gemm(MNK, MNK, MNK)
 workload = te.create_prim_func(args)
@@ -52,6 +80,7 @@ sch = tvm.tir.Schedule(ir_module)
 
 print_if_y('Print initial TIR[y/n]', sch.mod["main"].script()) # schedule has modules and we get the main one and get the script
 grid, block = schedule(sch)
+print_if_y('Print scheduled TIR[y/n]', sch.mod["main"].script()) # schedule has modules and we get the main one and get the script
 
 # https://tvm.apache.org/docs/reference/api/python/tir/schedule.html
 # from welder.IRpass import *
@@ -78,11 +107,16 @@ for arg in args:
     torch_arrs.append(arr)
 
 
-latency = lib.profile(*[ctypes.c_void_p(arr.data_ptr()) for arr in torch_arrs])
+print(f'{type(lib)=}')
+latency = lib.profile(*[ctypes.c_void_p(arr.data_ptr()) for arr in torch_arrs]) # look at compileresult, it attaches a .profile function, that's what it's running. This is in ms.
 print(f'Latency from lib.profile: {latency}')
+
+flops = 2 * 4096 * 4096 * 4096
+print(f'GFLOPS: {(flops / (latency * 1e-3)) * 1e-9}')
 
 c_actual = torch_arrs[-1]
 c_ref = torch_arrs[0] @ torch_arrs[1]
+# print(f'{c_actual.shape=}, {c_ref.shape=}')
 
 abs_error = (c_actual - c_ref).abs()
 max_err = abs_error.max().item()
